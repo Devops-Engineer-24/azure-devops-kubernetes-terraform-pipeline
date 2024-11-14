@@ -1,35 +1,31 @@
-# Starter pipeline
-# Start with a minimal pipeline that you can customize to build and deploy your code.
-# Add steps that build, run tests, deploy, and more:
-# https://aka.ms/yaml
 
 trigger:
 - main
 
-#pileline > stages > jobs > tasks(steps)
+stages:
+- stage: Build
+  jobs:
+  - job: FirstJob
+    steps:
+     - bash: echo Build FirstJob
+  - job: SecondJob
+    steps:
+       - bash: echo Build SecondJobs
+- stage: DevDeploy
+  jobs:
+    - job: Deploy
+      steps:
+       - bash: echo Dev Deploy
+- stage: QaDeploy
+  jobs:
+    - job: QaDeploy
+      steps:
+       - bash: echo Qa Deploy
+- stage: ProdDeploy
+  jobs:
+    - job: PROD
+      steps:
+        - bash: echo Prod Deploy  
 
-jobs:
-- job: job1
-  steps:
-  - script: echo Hello, world!
-    displayName: 'Run a one-line script'
 
-  - script: |
-      echo Add other tasks to build, test, and deploy your project.
-      echo See https://aka.ms/yaml
-    displayName: 'Run a multi-line script'
-- job: job2
-  dependsOn: Job1
-  steps:
-  - script: echo Jobs2!
-    displayName: 'Run a one-line scripts'
-- job: job3
-  dependsOn: Job2
-  steps:
-  - script: echo Jobs3!
-    displayName: 'Run a one-line scripts'
-- job: job4
-  dependsOn: Job1
-  steps:
-  - script: echo Jobs4!
-    displayName: 'Run a one-line scripts'
+

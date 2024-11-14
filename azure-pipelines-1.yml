@@ -12,18 +12,21 @@ stages:
     steps:
        - script: echo Build SecondJobs
 - stage: DevDeploy
+  dependsOn: Build
   jobs:
     - job: Deploy
       steps:
        - script: echo Dev Deploy
 - stage: QaDeploy
+  dependsOn: DevDeploy
   jobs:
     - job: QaDeploy
       steps:
        - script: echo Qa Deploy
 - stage: ProdDeploy
+  dependsOn: QaDeploy
   jobs:
-    - job: PROD
+    - job: ProdDeploy
       steps:
         - script: echo Prod Deploy  
 

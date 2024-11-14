@@ -23,3 +23,8 @@ jobs:
   steps:
   - script: echo Jobs2!
     displayName: 'Run a one-line scripts'
+- job: job3
+  dependsOn: Job2
+  steps:
+  - script: echo Jobs3!
+    displayName: 'Run a one-line scripts'

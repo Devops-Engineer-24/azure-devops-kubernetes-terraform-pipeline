@@ -24,7 +24,9 @@ stages:
       steps:
        - script: echo Qa Deploy
 - stage: ProdDeploy
-  dependsOn: QaDeploy
+  dependsOn: 
+  - QaDeploy
+  - DevDeploy
   jobs:
     - job: ProdDeploy
       steps:

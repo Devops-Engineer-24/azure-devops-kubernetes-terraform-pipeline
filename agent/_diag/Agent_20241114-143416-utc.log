@@ -1,0 +1,104 @@
+[2024-11-14 14:34:16Z INFO AgentProcess] Agent package win-x64.
+[2024-11-14 14:34:16Z INFO AgentProcess] Running on Windows (X64).
+[2024-11-14 14:34:16Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.22631.
+[2024-11-14 14:34:16Z INFO AgentProcess] Version: 3.246.0
+[2024-11-14 14:34:16Z INFO AgentProcess] Commit: 59c8fe5f253ec6ff0c98d7250bd45096698b8736
+[2024-11-14 14:34:16Z INFO AgentProcess] Culture: en-IN
+[2024-11-14 14:34:16Z INFO AgentProcess] UI Culture: en-US
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO AgentProcess] Validating directory permissions for: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-14 14:34:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2024-11-14 14:34:16Z INFO AgentProcess]  'CDF'
+[2024-11-14 14:34:16Z INFO AgentProcess]  'v4'
+[2024-11-14 14:34:16Z INFO AgentProcess]  'v4.0'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2024-11-14 14:34:16Z INFO AgentProcess]  'Client'
+[2024-11-14 14:34:16Z INFO AgentProcess]  'Full'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2024-11-14 14:34:16Z INFO AgentProcess] Type is System.Int32
+[2024-11-14 14:34:16Z INFO AgentProcess] Interpreted version: 4.7.0
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2024-11-14 14:34:16Z INFO AgentProcess] Type is System.Int32
+[2024-11-14 14:34:16Z INFO AgentProcess] Interpreted version: 4.7.0
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2024-11-14 14:34:16Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2024-11-14 14:34:16Z INFO AgentProcess] Found 2 versions:
+[2024-11-14 14:34:16Z INFO AgentProcess]  4.7.0
+[2024-11-14 14:34:16Z INFO AgentProcess]  4.7.0
+[2024-11-14 14:34:16Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO CommandSettings] Run {
+  "Commit": false,
+  "Diagnostics": false,
+  "RunOnce": false,
+  "StartupType": null,
+  "DebugMode": false,
+  "Help": false,
+  "Version": false
+}
+[2024-11-14 14:34:16Z INFO AgentProcess] Arguments parsed
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Proxy': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.proxy'
+[2024-11-14 14:34:16Z INFO VstsAgentWebProxy] No proxy setting found.
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Certificates': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.certificates'
+[2024-11-14 14:34:16Z INFO AgentCertificateManager] No certificate setting found.
+[2024-11-14 14:34:16Z INFO Agent] ExecuteCommand
+[2024-11-14 14:34:16Z INFO ConfigurationStore] currentAssemblyLocation: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.Listener.dll
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] binPath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] RootFolder: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Agent': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] ConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Credentials': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] CredFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Service': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Autologon': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] AutoLogonSettingsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'Options': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] RuntimeOptionsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:16Z INFO HostContext] Well known config file 'SetupInfo': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info'
+[2024-11-14 14:34:16Z INFO ConfigurationStore] SetupInfoFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info
+[2024-11-14 14:34:16Z INFO ConfigurationManager] LoadSettings
+[2024-11-14 14:34:16Z INFO ConfigurationStore] IsConfigured()
+[2024-11-14 14:34:16Z INFO ConfigurationStore] IsConfigured: False
+[2024-11-14 14:34:16Z INFO ConfigurationManager] Is configured: False
+[2024-11-14 14:34:16Z ERR  Terminal] WRITE ERROR: An error occurred: Not configured
+[2024-11-14 14:34:16Z ERR  AgentProcess] System.InvalidOperationException: Not configured
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.LoadSettings() in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 69
+   at Microsoft.VisualStudio.Services.Agent.Listener.Agent.ExecuteCommand(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Agent.cs:line 191
+   at Microsoft.VisualStudio.Services.Agent.Listener.Program.MainAsync(IHostContext context, String[] args) in D:\a\_work\1\s\src\Agent.Listener\Program.cs:line 163

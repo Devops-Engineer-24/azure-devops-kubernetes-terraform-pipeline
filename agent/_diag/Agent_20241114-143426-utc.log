@@ -1,0 +1,1059 @@
+[2024-11-14 14:34:26Z INFO AgentProcess] Agent package win-x64.
+[2024-11-14 14:34:26Z INFO AgentProcess] Running on Windows (X64).
+[2024-11-14 14:34:26Z INFO AgentProcess] RuntimeInformation: Microsoft Windows 10.0.22631.
+[2024-11-14 14:34:26Z INFO AgentProcess] Version: 3.246.0
+[2024-11-14 14:34:26Z INFO AgentProcess] Commit: 59c8fe5f253ec6ff0c98d7250bd45096698b8736
+[2024-11-14 14:34:26Z INFO AgentProcess] Culture: en-IN
+[2024-11-14 14:34:26Z INFO AgentProcess] UI Culture: en-US
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO AgentProcess] Validating directory permissions for: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-14 14:34:26Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework', value name 'InstallRoot': 'C:\Windows\Microsoft.NET\Framework64\'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP' contains sub keys:
+[2024-11-14 14:34:26Z INFO AgentProcess]  'CDF'
+[2024-11-14 14:34:26Z INFO AgentProcess]  'v4'
+[2024-11-14 14:34:26Z INFO AgentProcess]  'v4.0'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name 'Version' is null.
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4', value name '' is null.
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'SOFTWARE\Microsoft\NET Framework Setup\NDP\v4' contains sub keys:
+[2024-11-14 14:34:26Z INFO AgentProcess]  'Client'
+[2024-11-14 14:34:26Z INFO AgentProcess]  'Full'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version': '4.8.09032'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install': '1'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release': '533320'
+[2024-11-14 14:34:26Z INFO AgentProcess] Type is System.Int32
+[2024-11-14 14:34:26Z INFO AgentProcess] Interpreted version: 4.7.0
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version': '4.8.09032'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install': '1'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release': '533320'
+[2024-11-14 14:34:26Z INFO AgentProcess] Type is System.Int32
+[2024-11-14 14:34:26Z INFO AgentProcess] Interpreted version: 4.7.0
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version' is null.
+[2024-11-14 14:34:26Z INFO AgentProcess] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4.0', value name '': 'deprecated'
+[2024-11-14 14:34:26Z INFO AgentProcess] Found 2 versions:
+[2024-11-14 14:34:26Z INFO AgentProcess]  4.7.0
+[2024-11-14 14:34:26Z INFO AgentProcess]  4.7.0
+[2024-11-14 14:34:26Z INFO AgentProcess] Testing for min NET Framework version: '4.5'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.Password
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.ProxyPassword
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.SslClientCert
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.Token
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.WindowsLogonPassword
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.TenantId
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.ClientId
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO HostContext] Setting up value for origin: Configure.ClientSecret
+[2024-11-14 14:34:26Z INFO HostContext] Value is empty.
+[2024-11-14 14:34:26Z INFO CommandSettings] Configure {
+  "AcceptTeeEula": false,
+  "AddDeploymentGroupTags": false,
+  "AddEnvironmentVirtualMachineResourceTags": false,
+  "AddMachineGroupTags": false,
+  "AlwaysExtractTask": false,
+  "Agent": null,
+  "CollectionName": null,
+  "DeploymentGroup": false,
+  "DeploymentGroupName": null,
+  "DeploymentGroupTags": null,
+  "DeploymentPool": false,
+  "DeploymentPoolName": null,
+  "EnableServiceSidTypeUnrestricted": false,
+  "EnvironmentVMResource": false,
+  "EnvironmentName": null,
+  "EnvironmentVMResourceTags": null,
+  "GitUseSChannel": false,
+  "DisableLogUploads": false,
+  "ReStreamLogsToFiles": false,
+  "MachineGroup": false,
+  "MachineGroupName": null,
+  "MachineGroupTags": null,
+  "MonitorSocketAddress": null,
+  "NotificationPipeName": null,
+  "NotificationSocketAddress": null,
+  "NoRestart": false,
+  "OverwriteAutoLogon": false,
+  "Pool": null,
+  "ProjectName": null,
+  "ProxyPassword": null,
+  "ProxyUserName": null,
+  "ProxyUrl": null,
+  "Replace": false,
+  "RunAsAutoLogon": false,
+  "RunAsService": false,
+  "RunOnce": false,
+  "PreventServiceStart": false,
+  "SslCACert": null,
+  "SslClientCert": null,
+  "SslClientCertArchive": null,
+  "SslClientCertKey": null,
+  "SslClientCertPassword": null,
+  "SslSkipCertValidation": false,
+  "Url": null,
+  "WindowsLogonAccount": null,
+  "WindowsLogonPassword": null,
+  "Work": null,
+  "Auth": null,
+  "LaunchBrowser": false,
+  "Password": null,
+  "Token": null,
+  "Unattended": false,
+  "UserName": null,
+  "ClientId": null,
+  "TenantId": null,
+  "ClientSecret": null,
+  "Help": false,
+  "Version": false
+}
+[2024-11-14 14:34:26Z INFO AgentProcess] Arguments parsed
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Proxy': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.proxy'
+[2024-11-14 14:34:26Z INFO VstsAgentWebProxy] No proxy setting found.
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Certificates': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.certificates'
+[2024-11-14 14:34:26Z INFO AgentCertificateManager] No certificate setting found.
+[2024-11-14 14:34:26Z INFO Agent] ExecuteCommand
+[2024-11-14 14:34:26Z INFO ConfigurationStore] currentAssemblyLocation: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.Listener.dll
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] binPath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] RootFolder: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Agent': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] ConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Credentials': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] CredFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Service': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Autologon': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] AutoLogonSettingsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'Options': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] RuntimeOptionsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO HostContext] Well known config file 'SetupInfo': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info'
+[2024-11-14 14:34:26Z INFO ConfigurationStore] SetupInfoFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info
+[2024-11-14 14:34:26Z INFO Terminal] WRITE LINE: 
+  ___                      ______ _            _ _
+ / _ \                     | ___ (_)          | (_)
+/ /_\ \_____   _ _ __ ___  | |_/ /_ _ __   ___| |_ _ __   ___  ___
+|  _  |_  / | | | '__/ _ \ |  __/| | '_ \ / _ \ | | '_ \ / _ \/ __|
+| | | |/ /| |_| | | |  __/ | |   | | |_) |  __/ | | | | |  __/\__ \
+\_| |_/___|\__,_|_|  \___| \_|   |_| .__/ \___|_|_|_| |_|\___||___/
+                                   | |
+        agent v3.246.0             |_|          (commit 59c8fe5)
+
+[2024-11-14 14:34:26Z INFO ConfigurationManager] CheckAgentRootDirectorySecure
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:34:26Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:34:26Z INFO ConfigurationManager] ConfigureAsync
+[2024-11-14 14:34:26Z INFO ConfigurationStore] IsConfigured()
+[2024-11-14 14:34:26Z INFO ConfigurationStore] IsConfigured: False
+[2024-11-14 14:34:26Z INFO ConfigurationManager] Is configured: False
+[2024-11-14 14:34:26Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-11-14 14:34:26Z INFO ConfigurationManager] Testing for min NET Framework version: '4.6'
+[2024-11-14 14:34:26Z INFO CommandSettings] Flag 'deploymentgroup': 'False'
+[2024-11-14 14:34:26Z INFO CommandSettings] Flag 'deploymentpool': 'False'
+[2024-11-14 14:34:26Z INFO CommandSettings] Flag 'environment': 'False'
+[2024-11-14 14:34:26Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Listener.Configuration.IConfigurationProvider'
+[2024-11-14 14:34:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.BuildReleasesAgentConfigProvider, Agent.Listener
+[2024-11-14 14:34:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.DeploymentGroupAgentConfigProvider, Agent.Listener
+[2024-11-14 14:34:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.SharedDeploymentAgentConfigProvider, Agent.Listener
+[2024-11-14 14:34:26Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Listener.Configuration.EnvironmentVMResourceConfigProvider, Agent.Listener
+[2024-11-14 14:34:26Z INFO Terminal] WRITE LINE: 
+[2024-11-14 14:34:26Z INFO Terminal] WRITE LINE: >> Connect:
+[2024-11-14 14:34:26Z INFO Terminal] WRITE LINE: 
+[2024-11-14 14:34:26Z INFO CommandSettings] Arg 'url': ''
+[2024-11-14 14:34:26Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:34:26Z INFO PromptManager] ReadValue
+[2024-11-14 14:34:26Z INFO Terminal] WRITE: Enter server URL > 
+[2024-11-14 14:34:26Z INFO Terminal] READ LINE
+[2024-11-14 14:35:06Z INFO Terminal] Read value: 'https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/'
+[2024-11-14 14:35:06Z INFO ConfigurationManager] GetCredentialProvider
+[2024-11-14 14:35:06Z INFO CommandSettings] Arg 'auth': ''
+[2024-11-14 14:35:06Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:35:06Z INFO PromptManager] ReadValue
+[2024-11-14 14:35:06Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-11-14 14:35:06Z INFO Terminal] READ LINE
+[2024-11-14 14:35:12Z INFO Terminal] Read value: ''
+[2024-11-14 14:35:12Z INFO PromptManager] Falling back to the default: 'PAT'
+[2024-11-14 14:35:12Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2024-11-14 14:35:12Z INFO CredentialManager] GetCredentialProvider
+[2024-11-14 14:35:12Z INFO CredentialManager] Creating type PAT
+[2024-11-14 14:35:12Z INFO CredentialManager] Creating credential type: PAT
+[2024-11-14 14:35:12Z INFO PersonalAccessToken] EnsureCredential
+[2024-11-14 14:35:12Z INFO CommandSettings] Arg 'token': ''
+[2024-11-14 14:35:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:35:12Z INFO PromptManager] ReadValue
+[2024-11-14 14:35:12Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:35:12Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:05Z INFO Terminal] Read value: ''
+[2024-11-14 14:36:05Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:36:05Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:07Z INFO Terminal] Read value: ''
+[2024-11-14 14:36:07Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:36:07Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:07Z INFO Terminal] Read value: ''
+[2024-11-14 14:36:07Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:36:07Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:07Z INFO Terminal] Read value: ''
+[2024-11-14 14:36:07Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:36:07Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:07Z INFO Terminal] Read value: ''
+[2024-11-14 14:36:07Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:36:07Z INFO Terminal] READ SECRET
+[2024-11-14 14:36:35Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2024-11-14 14:36:35Z INFO Terminal] Read value: '***'
+[2024-11-14 14:36:35Z INFO ConfigurationManager] cred retrieved
+[2024-11-14 14:36:35Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-11-14 14:36:35Z INFO PersonalAccessToken] GetVssCredentials
+[2024-11-14 14:36:35Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2024-11-14 14:36:35Z INFO PersonalAccessToken] cred created
+[2024-11-14 14:36:35Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:36:36Z WARN VisualStudioServices] Authentication failed with status code 401.
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/"
+X-TFS-ProcessId: 370147e5-ed1b-405a-825a-40cf066ef153
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 41d9ff05-2806-48c2-9f5b-1c1fbb6f6926
+X-TFS-Session: 6a462918-286d-4fcd-9d7e-d6e32acaf11e
+X-VSS-E2EID: beddbf6a-539e-42ce-be5c-f283200a7a72
+X-VSS-SenderDeploymentId: ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+Request-Context: appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BC42191D86474BE5927CBC0B0E3722A2 Ref B: BOM01EDGE0914 Ref C: 2024-11-14T14:36:36Z
+Date: Thu, 14 Nov 2024 14:36:36 GMT
+
+[2024-11-14 14:36:36Z WARN VisualStudioServices] Basic issued token provider instance 66578044 requires an interactive prompt which is not allowed by the current settings
+[2024-11-14 14:36:36Z ERR  VisualStudioServices] GET request to https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/_apis/connectionData is not authorized. Details: VS30063: You are not authorized to access https://dev.azure.com.
+[2024-11-14 14:36:36Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:36:36Z INFO LocationServer] Unable to connect to https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/.
+[2024-11-14 14:36:36Z ERR  LocationServer] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\LocationServer.cs:line 36
+[2024-11-14 14:36:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:36:36Z ERR  Terminal] WRITE ERROR (exception):
+[2024-11-14 14:36:36Z ERR  Terminal] Microsoft.VisualStudio.Services.Common.VssUnauthorizedException: VS30063: You are not authorized to access https://dev.azure.com.
+   at Microsoft.VisualStudio.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\LocationServer.cs:line 36
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.GetConnectionData(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\Util\ServerUtil.cs:line 94
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.DetermineDeploymentType(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\Util\ServerUtil.cs:line 85
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.CheckIsHostedServer(IConfigurationProvider agentProvider, AgentSettings agentSettings, ICredentialProvider credProvider, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 1010
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 163
+[2024-11-14 14:36:36Z ERR  Terminal] WRITE ERROR: Failed to connect.  Try again or ctrl-c to quit
+[2024-11-14 14:36:36Z INFO CommandSettings] Arg 'url': ''
+[2024-11-14 14:36:36Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:36:36Z INFO PromptManager] ReadValue
+[2024-11-14 14:36:36Z INFO Terminal] WRITE: Enter server URL > 
+[2024-11-14 14:36:36Z INFO Terminal] READ LINE
+[2024-11-14 14:37:22Z INFO Terminal] Read value: 'https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/'
+[2024-11-14 14:37:22Z INFO ConfigurationManager] GetCredentialProvider
+[2024-11-14 14:37:22Z INFO CommandSettings] Arg 'auth': ''
+[2024-11-14 14:37:22Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:37:22Z INFO PromptManager] ReadValue
+[2024-11-14 14:37:22Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-11-14 14:37:22Z INFO Terminal] READ LINE
+[2024-11-14 14:37:24Z INFO Terminal] Read value: 'Av1ehIfFLdIQyKmS2OENQ5kbCY0c2b0MtkXDrSZYE3a8Nxx0xq6xJQQJ99AKACAAAAAAAAAAAAASAZDOuQkx'
+[2024-11-14 14:37:24Z INFO PromptManager] Invalid value.
+[2024-11-14 14:37:24Z INFO Terminal] WRITE LINE: Enter a valid value for authentication type.
+[2024-11-14 14:37:24Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-11-14 14:37:24Z INFO Terminal] READ LINE
+[2024-11-14 14:37:27Z INFO Terminal] Read value: 'https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/'
+[2024-11-14 14:37:27Z INFO PromptManager] Invalid value.
+[2024-11-14 14:37:27Z INFO Terminal] WRITE LINE: Enter a valid value for authentication type.
+[2024-11-14 14:37:27Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-11-14 14:37:27Z INFO Terminal] READ LINE
+[2024-11-14 14:37:28Z INFO Terminal] Read value: ''
+[2024-11-14 14:37:28Z INFO PromptManager] Falling back to the default: 'PAT'
+[2024-11-14 14:37:28Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2024-11-14 14:37:28Z INFO CredentialManager] GetCredentialProvider
+[2024-11-14 14:37:28Z INFO CredentialManager] Creating type PAT
+[2024-11-14 14:37:28Z INFO CredentialManager] Creating credential type: PAT
+[2024-11-14 14:37:28Z INFO PersonalAccessToken] EnsureCredential
+[2024-11-14 14:37:28Z INFO CommandSettings] Arg 'token': ''
+[2024-11-14 14:37:28Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:37:28Z INFO PromptManager] ReadValue
+[2024-11-14 14:37:28Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:37:28Z INFO Terminal] READ SECRET
+[2024-11-14 14:37:29Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2024-11-14 14:37:29Z INFO Terminal] Read value: '***'
+[2024-11-14 14:37:29Z INFO ConfigurationManager] cred retrieved
+[2024-11-14 14:37:29Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-11-14 14:37:29Z INFO PersonalAccessToken] GetVssCredentials
+[2024-11-14 14:37:29Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2024-11-14 14:37:29Z INFO PersonalAccessToken] cred created
+[2024-11-14 14:37:29Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:37:30Z ERR  VisualStudioServices] GET request to https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/_apis/connectionData failed. HTTP Status: NotFound, AFD Ref: Ref A: 5276AD4D82504CDCB28DAC6D659DE1FD Ref B: BOM01EDGE1414 Ref C: 2024-11-14T14:37:30Z
+[2024-11-14 14:37:30Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:37:30Z INFO LocationServer] Unable to connect to https://dev.azure.com/BigDataApplication/Azure-Devops-Demo/.
+[2024-11-14 14:37:30Z ERR  LocationServer] Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: The controller for path '/Azure-Devops-Demo/_apis/connectionData' was not found or does not implement IController.
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\LocationServer.cs:line 36
+[2024-11-14 14:37:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:37:30Z ERR  Terminal] WRITE ERROR (exception):
+[2024-11-14 14:37:30Z ERR  Terminal] Microsoft.VisualStudio.Services.WebApi.VssServiceResponseException: The controller for path '/Azure-Devops-Demo/_apis/connectionData' was not found or does not implement IController.
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.HandleResponseAsync(HttpResponseMessage response, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Location.Client.LocationHttpClient.GetConnectionDataAsync(ConnectOptions connectOptions, Int64 lastChangeId, CancellationToken cancellationToken, Object userState)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.GetConnectionDataAsync(ConnectOptions connectOptions, Int32 lastChangeId, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.WebApi.Location.VssServerDataProvider.ConnectAsync(ConnectOptions connectOptions, CancellationToken cancellationToken)
+   at Microsoft.VisualStudio.Services.Agent.LocationServer.ConnectAsync(VssConnection jobConnection) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\LocationServer.cs:line 36
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.GetConnectionData(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\Util\ServerUtil.cs:line 94
+   at Microsoft.VisualStudio.Services.Agent.Util.ServerUtil.DetermineDeploymentType(String serverUrl, VssCredentials credentials, ILocationServer locationServer, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Microsoft.VisualStudio.Services.Agent\Util\ServerUtil.cs:line 85
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.CheckIsHostedServer(IConfigurationProvider agentProvider, AgentSettings agentSettings, ICredentialProvider credProvider, Boolean skipServerCertificateValidation) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 1010
+   at Microsoft.VisualStudio.Services.Agent.Listener.Configuration.ConfigurationManager.ConfigureAsync(CommandSettings command) in D:\a\_work\1\s\src\Agent.Listener\Configuration\ConfigurationManager.cs:line 163
+[2024-11-14 14:37:30Z ERR  Terminal] WRITE ERROR: Failed to connect.  Try again or ctrl-c to quit
+[2024-11-14 14:37:30Z INFO CommandSettings] Arg 'url': ''
+[2024-11-14 14:37:30Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:37:30Z INFO PromptManager] ReadValue
+[2024-11-14 14:37:30Z INFO Terminal] WRITE: Enter server URL > 
+[2024-11-14 14:37:30Z INFO Terminal] READ LINE
+[2024-11-14 14:38:08Z INFO Terminal] Read value: 'https://dev.azure.com/BigDataApplication/'
+[2024-11-14 14:38:08Z INFO ConfigurationManager] GetCredentialProvider
+[2024-11-14 14:38:08Z INFO CommandSettings] Arg 'auth': ''
+[2024-11-14 14:38:08Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:38:08Z INFO PromptManager] ReadValue
+[2024-11-14 14:38:08Z INFO Terminal] WRITE: Enter authentication type (press enter for PAT) > 
+[2024-11-14 14:38:08Z INFO Terminal] READ LINE
+[2024-11-14 14:38:10Z INFO Terminal] Read value: ''
+[2024-11-14 14:38:10Z INFO PromptManager] Falling back to the default: 'PAT'
+[2024-11-14 14:38:10Z INFO ConfigurationManager] Creating credential for auth: PAT
+[2024-11-14 14:38:10Z INFO CredentialManager] GetCredentialProvider
+[2024-11-14 14:38:10Z INFO CredentialManager] Creating type PAT
+[2024-11-14 14:38:10Z INFO CredentialManager] Creating credential type: PAT
+[2024-11-14 14:38:10Z INFO PersonalAccessToken] EnsureCredential
+[2024-11-14 14:38:10Z INFO CommandSettings] Arg 'token': ''
+[2024-11-14 14:38:10Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:38:10Z INFO PromptManager] ReadValue
+[2024-11-14 14:38:10Z INFO Terminal] WRITE: Enter personal access token > 
+[2024-11-14 14:38:10Z INFO Terminal] READ SECRET
+[2024-11-14 14:40:04Z INFO HostContext] Setting up value for origin: Terminal.ReadSecret
+[2024-11-14 14:40:04Z INFO Terminal] Read value: '***'
+[2024-11-14 14:40:04Z INFO ConfigurationManager] cred retrieved
+[2024-11-14 14:40:04Z INFO CommandSettings] Flag 'sslskipcertvalidation': 'False'
+[2024-11-14 14:40:04Z INFO PersonalAccessToken] GetVssCredentials
+[2024-11-14 14:40:04Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2024-11-14 14:40:04Z INFO PersonalAccessToken] cred created
+[2024-11-14 14:40:04Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO PersonalAccessToken] GetVssCredentials
+[2024-11-14 14:40:05Z INFO PersonalAccessToken] token retrieved: 84 chars
+[2024-11-14 14:40:05Z INFO PersonalAccessToken] cred created
+[2024-11-14 14:40:05Z INFO Terminal] WRITE LINE: Connecting to server ...
+[2024-11-14 14:40:05Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-11-14 14:40:05Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:05Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-11-14 14:40:06Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:06Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-11-14 14:40:06Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:06Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:06Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:06Z INFO ConfigurationManager] Test Connection complete.
+[2024-11-14 14:40:06Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:40:06Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:40:06Z INFO HostContext] Well known config file 'RSACredentials': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams'
+[2024-11-14 14:40:06Z INFO RSAEncryptedFileKeyManager] Creating new RSA key using 2048-bit key length
+[2024-11-14 14:40:06Z INFO RSAEncryptedFileKeyManager] Successfully saved RSA key parameters to file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:06Z INFO Terminal] WRITE LINE: 
+[2024-11-14 14:40:06Z INFO Terminal] WRITE LINE: >> Register Agent:
+[2024-11-14 14:40:06Z INFO Terminal] WRITE LINE: 
+[2024-11-14 14:40:06Z INFO CommandSettings] Arg 'pool': ''
+[2024-11-14 14:40:06Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:40:06Z INFO PromptManager] ReadValue
+[2024-11-14 14:40:06Z INFO Terminal] WRITE: Enter agent pool (press enter for default) > 
+[2024-11-14 14:40:06Z INFO Terminal] READ LINE
+[2024-11-14 14:40:12Z INFO Terminal] Read value: ''
+[2024-11-14 14:40:12Z INFO PromptManager] Falling back to the default: 'default'
+[2024-11-14 14:40:12Z INFO BuildReleasesAgentConfigProvider] Found pool default with id 1 and name Default
+[2024-11-14 14:40:12Z INFO CommandSettings] Arg 'agent': ''
+[2024-11-14 14:40:12Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:40:12Z INFO PromptManager] ReadValue
+[2024-11-14 14:40:12Z INFO Terminal] WRITE: Enter agent name (press enter for MAYUR-DEVOPS) > 
+[2024-11-14 14:40:12Z INFO Terminal] READ LINE
+[2024-11-14 14:40:16Z INFO Terminal] Read value: ''
+[2024-11-14 14:40:16Z INFO PromptManager] Falling back to the default: 'MAYUR-DEVOPS'
+[2024-11-14 14:40:16Z INFO Terminal] WRITE LINE: Scanning for tool capabilities.
+[2024-11-14 14:40:16Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Capabilities.ICapabilitiesProvider'
+[2024-11-14 14:40:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.AgentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-11-14 14:40:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.EnvironmentCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-11-14 14:40:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.PowerShellCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-11-14 14:40:16Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Capabilities.UserCapabilitiesProvider, Microsoft.VisualStudio.Services.Agent
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ALLUSERSPROFILE': 'C:\ProgramData'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ANDROID_SDK_HOME': 'C:\Android'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'APPDATA': 'C:\Users\Mayur\AppData\Roaming'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ARM_SUBSCRIPTION_ID': '86118cce-85be-4eae-bf89-4eb7cc6b9955'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles': 'C:\Program Files\Common Files'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramFiles(x86)': 'C:\Program Files (x86)\Common Files'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'CommonProgramW6432': 'C:\Program Files\Common Files'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'COMPUTERNAME': 'MAYUR-DEVOPS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ComSpec': 'C:\WINDOWS\system32\cmd.exe'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'DriverData': 'C:\Windows\System32\Drivers\DriverData'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEDRIVE': 'C:'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'HOMEPATH': '\Users\Mayur'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'LOCALAPPDATA': 'C:\Users\Mayur\AppData\Local'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'LOGONSERVER': '\\MAYUR-DEVOPS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'NUMBER_OF_PROCESSORS': '8'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'OneDrive': 'C:\Users\Mayur\OneDrive'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'OnlineServices': 'Online Services'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'OS': 'Windows_NT'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'Path': 'C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Android;C:\Windows\System32;C:\Program Files\GitHub CLI\;C:\Program Files\Git\cmd;C:\Users\Mayur\OneDrive\project\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\terraform;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\Mayur\AppData\Local\Microsoft\WindowsApps;C:\Users\Mayur\Downloads\sonar-scanner-cli-4.7.0.2747-windows\sonar-scanner-4.7.0.2747-windows\bin;c:\Users\Mayur\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.10_qbz5n2kfra8p0\LocalCache\local-packages\Python310\site-packages;C:\Users\Mayur\Downloads\oc;C:\Users\Mayur\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files\Terraform;C:\Users\Mayur\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mayur\AppData\Local\GitHubDesktop\bin'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'platformcode': 'KV'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_ARCHITECTURE': 'AMD64'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 140 Stepping 1, GenuineIntel'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_LEVEL': '6'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PROCESSOR_REVISION': '8c01'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramData': 'C:\ProgramData'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles': 'C:\Program Files'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramFiles(x86)': 'C:\Program Files (x86)'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ProgramW6432': 'C:\Program Files'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PROMPT': '$P$G'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Skipping: 'PSModulePath'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'PUBLIC': 'C:\Users\Public'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'RegionCode': 'APJ'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'SESSIONNAME': 'Console'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'SONAR_TOKEN': '12e3c01fe99a829973bd29d0740efc17910efe0e'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemDrive': 'C:'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'SystemRoot': 'C:\WINDOWS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'TEMP': 'C:\Users\Mayur\AppData\Local\Temp'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'terraform': 'C:\Program Files\Terraform'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'TMP': 'C:\Users\Mayur\AppData\Local\Temp'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN': 'MAYUR-DEVOPS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'USERDOMAIN_ROAMINGPROFILE': 'MAYUR-DEVOPS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'USERNAME': 'Mayur'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'USERPROFILE': 'C:\Users\Mayur'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'VERBOSE_ARG': ''SilentlyContinue''
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'windir': 'C:\WINDOWS'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'WT_SESSION': 'f04e0ffd-447f-45c3-a8f2-3767b23054f3'
+[2024-11-14 14:40:16Z INFO EnvironmentCapabilitiesProvider] Adding 'ZES_ENABLE_SYSMAN': '1'
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-14 14:40:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-14 14:40:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy RemoteSigned -Command ". 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-Capabilities.ps1'"'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-14 14:40:16Z INFO ProcessInvokerWrapper] Process started with process id 9108, waiting for process exit.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-AndroidSdkCapabilities.ps1
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'CurrentUser', view 'Default', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'SOFTWARE\Android SDK Tools', value name 'Path'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-AntCapabilities.ps1
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: 'env:ANT_HOME'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-ApplicationCapabilities.ps1
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'npm'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'gulp'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'node'
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:16Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'bower'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'grunt'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'svn'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'cmake'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking for application: 'docker'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=docker]C:\Program Files\Docker\Docker\resources\bin\docker.exe
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'docker': 'C:\Program Files\Docker\Docker\resources\bin\docker.exe'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-AzureGuestAgentCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-AzurePowerShellCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Env:PSModulePath: 'C:\Users\Mayur\Documents\WindowsPowerShell\Modules;C:\Users\Mayur\AppData\Local\Google\Cloud SDK\google-cloud-sdk\platform\PowerShell;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Az.Accounts' from the module path.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'AzureRM' from the module path.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ResourceManager\AzureResourceManager\AzureRM.Profile\AzureRM.Profile.psd1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Attempting to find the module 'Azure' from the module path.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files (x86)\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking if path exists: C:\Program Files\Microsoft SDKs\Azure\PowerShell\ServiceManagement\Azure\Azure.psd1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-ChefCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-DotNetFrameworkCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\.NETFramework', value name 'InstallRoot'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'CDF'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'v4.0'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4', value name ''
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Client'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Full'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Install'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'InstallPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Client', value name 'Release'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: '4.8.09032'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Install'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '1'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'InstallPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4\Full', value name 'Release'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found Int32 value: '533320'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework_4.8.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework_4.8.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name 'Version'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\NET Framework Setup\NDP\v4.0', value name ''
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'deprecated'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=DotNetFramework]C:\Windows\Microsoft.NET\Framework64\v4.0.30319
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'DotNetFramework': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-JavaCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.6', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.7', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment\1.8', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Program Files\Java\jre-1.8'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java_8_x64]C:\Program Files\Java\jre-1.8
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'java_8_x64': 'C:\Program Files\Java\jre-1.8'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Runtime Environment'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JRE'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Runtime Environment'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT:   '1.8.0_401'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: 1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: 1 9
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to get last available version for capability:  java_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: 0 9
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to set capability for first found subkey:  1.8.0_401
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JRE'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  java_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=java]C:\Program Files\Java\jre-1.8
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'java': 'C:\Program Files\Java\jre-1.8'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.6', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.7', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit\1.8', value name 'JavaHome'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\Java Development Kit'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\JavaSoft\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + 
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\Java Development Kit'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\JavaSoft\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\AdoptOpenJDK\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\AdoptOpenJDK\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Eclipse Adoptium\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Eclipse Foundation\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Semeru\JDK'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: An error occured while trying to sort subkeys for capability as versions:  jdk_ + <version> + _x64
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Cannot index into a null array.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-MavenCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: env:JAVA_HOME
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or empty.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-MSBuildCapabilities.ps1
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2024-11-14 14:40:17Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild]C:\Windows\Microsoft.NET\Framework\v4.0.30319\
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild': 'C:\Windows\Microsoft.NET\Framework\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\2.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\3.5', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\4.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Found String value: 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_4.0_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_4.0_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\12.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\MSBuild\ToolsVersions\14.0', value name 'MSBuildToolsPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=MSBuild_x64]C:\Windows\Microsoft.NET\Framework64\v4.0.30319\
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'MSBuild_x64': 'C:\Windows\Microsoft.NET\Framework64\v4.0.30319\'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-PowerShellCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: ##vso[agent.capability name=PowerShell]5.1.22621.4391
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] Adding 'PowerShell': '5.1.22621.4391'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-ScvmmAdminConsoleCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft System Center Virtual Machine Manager Administrator Console\Setup', value name 'InstallPath'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-SqlPackageCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'MSODBCSQL17'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\Microsoft SQL Server\Data-Tier Application Framework'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   '7.1'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Debugger'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Designers'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\7.1', value name 'InstallDir'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Sub keys:
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   '14.0'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Debugger'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Designers'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT:   'Setup'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry64', key name 'Software\Microsoft\VisualStudio\14.0', value name 'InstallDir'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-VisualStudioCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\10.0', value name 'InstallDir'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\11.0', value name 'InstallDir'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\12.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\14.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Value not found or is empty.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\15.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\16.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\VisualStudio\17.0', value name 'ShellFolder'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-WindowsKitCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Windows Kits\Installed Roots', value name ''
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-WindowsSdkCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Microsoft\Microsoft SDKs\Windows'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\Add-XamarinAndroidCapabilities.ps1
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Checking: hive 'LocalMachine', view 'Registry32', key name 'Software\Novell\Mono for Android', value name 'InstalledVersion'
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Key not found.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -latest  -format json
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 17 setup instance.
+[2024-11-14 14:40:18Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[17.0,18.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 16 setup instance.
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -latest  -format json
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 16 setup instance.
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[16.0,17.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest Visual Studio 15 setup instance.
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -latest  -format json
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Getting latest BuildTools 15 setup instance.
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: & D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\powershell\CapabilityHelpers\..\..\..\externals\vswhere\vswhere.exe -version '[15.0,16.0)' -products Microsoft.VisualStudio.Product.BuildTools -latest  -format json
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: []
+[2024-11-14 14:40:19Z INFO PowerShellCapabilitiesProvider] STDOUT: Exit code: 0
+[2024-11-14 14:40:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-14 14:40:19Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-14 14:40:19Z INFO ProcessInvokerWrapper] Exited process 9108 with exit code 0
+[2024-11-14 14:40:19Z INFO ProcessInvokerWrapper] Finished process 9108 with exit code 0, and elapsed time 00:00:02.8811835.
+[2024-11-14 14:40:19Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:40:19Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.Name': 'MAYUR-DEVOPS'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.OS': 'Windows_NT'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSArchitecture': 'X64'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMajorVersionNumber': '10'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentMinorVersionNumber': '0'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion', value name 'CurrentBuildNumber': '22631'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.OSVersion': '10.0.22631'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Cmd': 'C:\WINDOWS\system32\cmd.exe'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'InteractiveSession': 'True'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.Version': '3.246.0'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.ComputerName': 'MAYUR-DEVOPS'
+[2024-11-14 14:40:19Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-14 14:40:19Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:40:19Z INFO AgentCapabilitiesProvider] Adding 'Agent.HomeDirectory': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-14 14:40:19Z INFO Terminal] WRITE LINE: Connecting to the server.
+[2024-11-14 14:40:19Z INFO Terminal] WRITE LINE: Successfully added the agent
+[2024-11-14 14:40:19Z INFO ConfigurationManager] Agent server url resolve by server: 'https://dev.azure.com/BigDataApplication/'.
+[2024-11-14 14:40:19Z INFO ConfigurationStore] Saving OAuth credential @ D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials
+[2024-11-14 14:40:19Z INFO ConfigurationStore] Credentials Saved.
+[2024-11-14 14:40:19Z INFO Terminal] WRITE LINE: Testing agent connection.
+[2024-11-14 14:40:19Z INFO ConfigurationStore] HasCredentials()
+[2024-11-14 14:40:19Z INFO ConfigurationStore] stored True
+[2024-11-14 14:40:20Z INFO CredentialManager] GetCredentialProvider
+[2024-11-14 14:40:20Z INFO CredentialManager] Creating type OAuth
+[2024-11-14 14:40:20Z INFO CredentialManager] Creating credential type: OAuth
+[2024-11-14 14:40:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:20Z INFO AgentServer] Establish connection with 100 seconds timeout.
+[2024-11-14 14:40:20Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:20Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 732328b2-0cf3-4358-8b08-aab10ec6ece2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 1b7216a9-2d23-4f07-97eb-f983647ba17d
+X-TFS-Session: 6a462918-286d-4fcd-9d7e-d6e32acaf11e
+X-VSS-E2EID: 69e9463d-8212-409f-8840-e5dcec59458f
+X-VSS-SenderDeploymentId: ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/BigDataApplication/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/BigDataApplication/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FBigDataApplication%2F_apis%2FconnectionData%3FconnectOptions%3D0%26lastChangeId%3D422535191%26lastChangeId64%3D422535191&redirect=1&hid=d83a30d8-62d9-4671-b0a8-21eeb2f1af90&context=eyJodCI6MiwiaGlkIjoiNmNlNjgzYmQtNzQzMy00NmViLTkxZmYtYzYyZmViNjA4OWE5IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: 8EB29A93D7A542BE972037C247596BA6 Ref B: BOM01EDGE0714 Ref C: 2024-11-14T14:40:20Z
+Date: Thu, 14 Nov 2024 14:40:19 GMT
+
+[2024-11-14 14:40:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:20Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown
+[2024-11-14 14:40:20Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:20Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-11-14 14:40:20Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:20Z INFO AgentServer] Establish connection with 60 seconds timeout.
+[2024-11-14 14:40:20Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-14 14:40:21Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:21Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-14 14:40:21Z INFO CommandSettings] Arg 'work': ''
+[2024-11-14 14:40:21Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:40:21Z INFO PromptManager] ReadValue
+[2024-11-14 14:40:21Z INFO Terminal] WRITE: Enter work folder (press enter for _work) > 
+[2024-11-14 14:40:21Z INFO Terminal] READ LINE
+[2024-11-14 14:40:23Z INFO Terminal] Read value: ''
+[2024-11-14 14:40:23Z INFO PromptManager] Falling back to the default: '_work'
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'disableloguploads': 'False'
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'restreamlogstofiles': 'False'
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'alwaysextracttask': 'False'
+[2024-11-14 14:40:23Z INFO ConfigurationStore] Saving agent settings.
+[2024-11-14 14:40:23Z INFO ConfigurationStore] Settings Saved.
+[2024-11-14 14:40:23Z INFO Terminal] WRITE LINE: 2024-11-14 14:40:23Z: Settings Saved.
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'gituseschannel': 'False'
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'runasservice': 'False'
+[2024-11-14 14:40:23Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:40:23Z INFO PromptManager] ReadValue
+[2024-11-14 14:40:23Z INFO Terminal] WRITE: Enter run agent as service? (Y/N) (press enter for N) > 
+[2024-11-14 14:40:23Z INFO Terminal] READ LINE
+[2024-11-14 14:40:24Z INFO Terminal] Read value: ''
+[2024-11-14 14:40:24Z INFO PromptManager] Falling back to the default: 'N'
+[2024-11-14 14:40:24Z INFO CommandSettings] Flag 'runasautologon': 'False'
+[2024-11-14 14:40:24Z INFO CommandSettings] Flag 'unattended': 'False'
+[2024-11-14 14:40:24Z INFO PromptManager] ReadValue
+[2024-11-14 14:40:24Z INFO Terminal] WRITE: Enter configure autologon and run agent on startup? (Y/N) (press enter for N) > 
+[2024-11-14 14:40:24Z INFO Terminal] READ LINE
+[2024-11-14 14:40:26Z INFO Terminal] Read value: ''
+[2024-11-14 14:40:26Z INFO PromptManager] Falling back to the default: 'N'
+[2024-11-14 14:40:26Z INFO ConfigurationStore] HasCredentials()
+[2024-11-14 14:40:26Z INFO ConfigurationStore] stored True
+[2024-11-14 14:40:26Z INFO CredentialManager] GetCredentialProvider
+[2024-11-14 14:40:26Z INFO CredentialManager] Creating type OAuth
+[2024-11-14 14:40:26Z INFO CredentialManager] Creating credential type: OAuth
+[2024-11-14 14:40:26Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:26Z INFO ConfigurationManager] LoadSettings
+[2024-11-14 14:40:26Z INFO ConfigurationStore] IsConfigured()
+[2024-11-14 14:40:26Z INFO ConfigurationStore] IsConfigured: True
+[2024-11-14 14:40:26Z INFO ConfigurationManager] Is configured: True
+[2024-11-14 14:40:26Z INFO ConfigurationStore] Read setting file: 181 chars
+[2024-11-14 14:40:26Z INFO ConfigurationManager] Settings Loaded
+[2024-11-14 14:40:26Z WARN VisualStudioServices] Authentication failed with status code 401.
+Cache-Control: no-cache
+Pragma: no-cache
+P3P: CP="CAO DSP COR ADMa DEV CONo TELo CUR PSA PSD TAI IVDo OUR SAMi BUS DEM NAV STA UNI COM INT PHY ONL FIN PUR LOC CNT"
+WWW-Authenticate: Basic realm="https://tfsprodsin1.app.visualstudio.com/", Bearer, TFS-Federated
+X-TFS-ProcessId: 732328b2-0cf3-4358-8b08-aab10ec6ece2
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+ActivityId: 1b721377-2d23-4f07-97eb-f983647ba17d
+X-TFS-Session: 6a462918-286d-4fcd-9d7e-d6e32acaf11e
+X-VSS-E2EID: 8e130c68-300b-441c-a6a2-62af09b9da52
+X-VSS-SenderDeploymentId: ed30ce5c-9d0a-f73c-3580-4315c7f84d83
+X-Frame-Options: SAMEORIGIN
+X-TFS-FedAuthRealm: https://tfsprodsin1.app.visualstudio.com/
+X-TFS-FedAuthIssuer: https://dev.azure.com/BigDataApplication/
+X-VSS-AuthorizationEndpoint: https://vssps.dev.azure.com/BigDataApplication/
+X-VSS-ResourceTenant: 00000000-0000-0000-0000-000000000000
+X-VSS-S2STargetService: 00000002-0000-8888-8000-000000000000/visualstudio.com
+X-TFS-FedAuthRedirect: https://spsprodcin1.vssps.visualstudio.com/_signin?realm=dev.azure.com&reply_to=https%3A%2F%2Fdev.azure.com%2FBigDataApplication%2F_apis%2FCustomerIntelligence%2FEvents&redirect=1&hid=d83a30d8-62d9-4671-b0a8-21eeb2f1af90&context=eyJodCI6MiwiaGlkIjoiNmNlNjgzYmQtNzQzMy00NmViLTkxZmYtYzYyZmViNjA4OWE5IiwicXMiOnt9LCJyciI6IiIsInZoIjoiIiwiY3YiOiIiLCJjcyI6IiJ90#ctx=eyJTaWduSW5Db29raWVEb21haW5zIjpbImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSIsImh0dHBzOi8vbG9naW4ubWljcm9zb2Z0b25saW5lLmNvbSJdfQ2
+Request-Context: appId=cid-v1:0f8b2d32-fdff-4d39-87b8-548fb9450eb7
+Access-Control-Expose-Headers: Request-Context
+X-Content-Type-Options: nosniff
+X-Cache: CONFIG_NOCACHE
+X-MSEdge-Ref: Ref A: BC1C7E3D0E7E412986890AC4185ACB52 Ref B: BOM01EDGE0716 Ref C: 2024-11-14T14:40:27Z
+Date: Thu, 14 Nov 2024 14:40:26 GMT
+
+[2024-11-14 14:40:26Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:26Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials_rsaparams
+[2024-11-14 14:40:27Z INFO VisualStudioServices] AAD Correlation ID for this token request: Unknown

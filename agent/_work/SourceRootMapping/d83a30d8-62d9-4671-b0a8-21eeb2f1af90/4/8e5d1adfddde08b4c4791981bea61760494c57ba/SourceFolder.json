@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1\\a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/BigDataApplication/",
+  "definitionName": "Devops-Engineer-24.azure-devops-kubernetes-terraform-pipeline (4)",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+      "sourcesDirectory": "1\\s\\azure-devops-kubernetes-terraform-pipeline"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "11/14/2024 20:26:21 +05:30",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1\\s",
+  "common_testresultsdirectory": "1\\TestResults",
+  "collectionId": "d83a30d8-62d9-4671-b0a8-21eeb2f1af90",
+  "definitionId": "4",
+  "hashKey": "8e5d1adfddde08b4c4791981bea61760494c57ba",
+  "repositoryUrl": "https://github.com/Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+  "system": "build"
+}

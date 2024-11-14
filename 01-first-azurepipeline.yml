@@ -6,14 +6,30 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+#pileline > stages > jobs > tasks(steps)
 
-steps:
-- script: echo Hello, Azure-evops!
-  displayName: 'Run a one-line script'
+jobs:
+- job: job1
+  steps:
+  - script: echo Hello, world!
+    displayName: 'Run a one-line script'
 
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
+  - script: |
+      echo Add other tasks to build, test, and deploy your project.
+      echo See https://aka.ms/yaml
+    displayName: 'Run a multi-line script'
+- job: job2
+  dependsOn: Job1
+  steps:
+  - script: echo Jobs2!
+    displayName: 'Run a one-line scripts'
+- job: job3
+  dependsOn: Job2
+  steps:
+  - script: echo Jobs3!
+    displayName: 'Run a one-line scripts'
+- job: job4
+  dependsOn: Job1
+  steps:
+  - script: echo Jobs4!
+    displayName: 'Run a one-line scripts'

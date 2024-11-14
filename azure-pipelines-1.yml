@@ -12,11 +12,14 @@ stages:
     steps:
        - script: echo Build SecondJobs
 - stage: DevDeploy
+  variables:
+    enviromnet: Dev
   dependsOn: Build
   jobs:
     - job: Deploy
       steps:
        - script: echo Dev Deploy
+       - script: echo echo $(enviromnet)Dev
 - stage: QaDeploy
   dependsOn: Build
   jobs:

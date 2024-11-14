@@ -19,7 +19,7 @@ stages:
     - job: Deploy
       steps:
        - script: echo Dev Deploy
-       - script: echo echo $(enviromnet)Dev
+       - script: echo echo $(PIPELINELEVALVARIABLE)Dev
 - stage: QaDeploy
   dependsOn: Build
   jobs:

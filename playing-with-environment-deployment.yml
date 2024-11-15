@@ -5,16 +5,14 @@ trigger:
 
 jobs:
 - job: SelfHostedPoolJob
-  displayName: Run job on Default Agent Pool
+  displayName: Run job on Dcoker Agent Pool
   pool:
     name: docker-agent
   steps:
     - script: echo "This job is running on the Dcoker Agent Pool."
       displayName: 'Show Pool Information'
-
-    - script: |
-        echo Performing tasks on the dcoker agent...
-        - script: mvn -version
-        - bash: ls -lhrt
-        echo Add your commands here!
+    - script:  echo Performing tasks on the dcoker agent...
+    - script: mvn -version
+    - bash: ls -lhrt
+    - bash:  echo Add your commands here!
       displayName: 'Run Tasks'

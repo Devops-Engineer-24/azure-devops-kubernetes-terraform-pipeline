@@ -8,6 +8,12 @@ stages:
   - job: FirstJob
     steps:
      - script: echo Build FirstJob
+     - script: echo $(Build.BuildNumber)
+     - script: echo $(Build.Build)
+     - script: echo $(Build.SourceBranchName)
+     - script: echo $(Build.SourceDirectory)
+     - script: echo $(Build.Build)
+     - powershell: echo $(projectName)
   - job: SecondJob
     steps:
        - script: echo Build SecondJobs
@@ -34,6 +40,8 @@ stages:
     - job: ProdDeploy
       steps:
         - script: echo Prod Deploy  
+
+
 
 
 

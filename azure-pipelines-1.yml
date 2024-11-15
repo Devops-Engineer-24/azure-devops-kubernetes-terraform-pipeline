@@ -12,7 +12,21 @@ stages:
      - script: echo $(Build.BuildID)
      - script: echo $(Build.SourceBranchName)
      - script: echo $(Build.SourcesDirectory)
+     - script: echo $(System.DefaultWorkingDirectory)
+     - script: echo $(Build.ArtifactStagingDirectory)
      - script: echo $(projectName)
+     - script: java -version
+     - script: node --version
+     - script: python --version
+     - script: mvn -version
+     - task: CopyFiles@2
+       inputs:
+         SourceFolder: '$(System.DefaultWorkingDirectory)'
+         Contents: |
+           **/*.yaml
+           **/*.tf
+         TargetFolder: 'echo $(Build.ArtifactStagingDirectory)'
+
   - job: SecondJob
     steps:
        - script: echo Build SecondJobs

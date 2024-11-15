@@ -16,7 +16,7 @@ stages:
      - script: echo $(Build.ArtifactStagingDirectory)
      - script: echo $(projectName)
      - script: java -version
-     - script: python --version
+    # - script: python --version
     # - script: mvn -version
      - task: CopyFiles@2
        inputs:
@@ -24,7 +24,7 @@ stages:
          Contents: |
            **/*.yaml
            **/*.tf
-         TargetFolder: 'echo $(Build.ArtifactStagingDirectory)'
+         TargetFolder: '$(Build.ArtifactStagingDirectory)'
 
   - job: SecondJob
     steps:
@@ -37,7 +37,7 @@ stages:
     - job: Deploy
       steps:
        - script: echo Dev Deploy
-       - script: echo echo $(PIPELINELEVALVARIABLE)Dev
+       - script: echo $(PIPELINELEVALVARIABLE)
 - stage: QaDeploy
   dependsOn: Build
   jobs:

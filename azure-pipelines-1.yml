@@ -12,7 +12,6 @@ stages:
      - script: echo $(Build.BuildID)
      - script: echo $(Build.SourceBranchName)
      - script: echo $(Build.SourcesDirectory)
-     - powershell: echo $(projectName)
      - script: echo $(projectName)
   - job: SecondJob
     steps:

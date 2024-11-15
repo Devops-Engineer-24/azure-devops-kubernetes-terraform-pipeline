@@ -12,7 +12,6 @@ jobs:
     - script: echo "This job is running on the Dcoker Agent Pool."
       displayName: 'Show Pool Information'
     - script:  echo Performing tasks on the dcoker agent...
-    - script: mvn -version
     - bash: ls -lhrt
     - bash:  echo Add your commands here!
       displayName: 'Run Tasks'

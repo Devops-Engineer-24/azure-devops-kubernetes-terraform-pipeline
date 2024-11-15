@@ -1,34 +1,18 @@
-# Docker
-# Build a Docker image
-# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
-
 trigger:
-- main
+  branches:
+    include:
+      - main
 
-strategy:
-  matrix:
-   os: [ubuntu-latest, windows-latest] 
-     
+jobs:
+- job: DefaultPoolJob
+  displayName: Run job on Default Agent Pool
+  pool:
+    name: Default
+  steps:
+    - script: echo "This job is running on the Default Agent Pool."
+      displayName: 'Show Pool Information'
 
-resources:
-- repo: self
-
-variables:
-  tag: '$(Build.BuildId)'
-
-stages:
-- stage: Build
-  displayName: Build image
-  jobs:
-  - job: Build
-    displayName: Build
-    pool:
-      vmImage: ubuntu-latest
-    steps:
-    - task: Docker@2
-      displayName: Build an image
-      inputs:
-        command: build
-        dockerfile: '$(Build.SourcesDirectory)/Dockerfile'
-        tags: |
-          $(tag)
+    - script: |
+        echo Performing tasks on the default agent...
+        echo Add your commands here!
+      displayName: 'Run Tasks'

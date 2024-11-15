@@ -12,7 +12,7 @@ stages:
      - script: echo $(Build.BuildID)
      - script: echo $(Build.SourceBranchName)
      - script: echo $(Build.SourcesDirectory)
-     - script: echo $(Syteam.DefaultWorkingDirectory)
+     - script: ls -R $(Syteam.DefaultWorkingDirectory)
      - script: echo $(projectName)
   - job: SecondJob
     steps:

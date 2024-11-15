@@ -9,11 +9,11 @@ stages:
     steps:
      - script: echo Build FirstJob
      - script: echo $(Build.BuildNumber)
-     - script: echo $(Build.Build)
+     - script: echo $(Build.BuildID)
      - script: echo $(Build.SourceBranchName)
-     - script: echo $(Build.SourceDirectory)
-     - script: echo $(Build.Build)
-     - powershell: echo $(projectName)
+     - script: echo $(Build.SourcesDirectory)
+     - script: echo $(Syteam.DefaultWorkingDirectory)
+     - script: echo $(projectName)
   - job: SecondJob
     steps:
        - script: echo Build SecondJobs

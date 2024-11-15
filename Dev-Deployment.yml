@@ -20,3 +20,12 @@ stages:
            deploy:
             steps:
             - script: echo deploy to Dev  
+ - stage: SITDeploy
+   jobs: 
+   - deployment:  SITDeployJob
+     environment: SIT
+     strategy:
+         runOnce:
+           deploy:
+            steps:
+            - script: echo deploy to SIT  

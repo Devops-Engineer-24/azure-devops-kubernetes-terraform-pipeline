@@ -1,0 +1,22 @@
+trigger:
+- main
+
+pool:
+      name:  docker-agent
+    
+stages:
+ - stage: Build
+   jobs:
+   - job: BuildJobs
+     steps:
+      - bash: echo "Do the Build"
+
+ - stage: DevDeploy
+   jobs: 
+   - deployment:  DevDeployJob
+     environment: Dev
+     strategy:
+         runOnce:
+           deploy:
+            steps:
+            - script: echo deploy to Dev  

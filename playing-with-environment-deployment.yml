@@ -7,7 +7,7 @@ jobs:
 - job: DefaultPoolJob
   displayName: Run job on Default Agent Pool
   pool:
-    name: Default
+    name: docker-agent
   steps:
     - script: echo "This job is running on the Default Agent Pool."
       displayName: 'Show Pool Information'

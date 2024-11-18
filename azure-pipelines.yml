@@ -24,7 +24,7 @@ stages:
       displayName: Build an image
       inputs:
         containerRegistry: 'Azure-Pipe;ine'
-        repository: 'azure-pipeline'
+        repository: 'mayur24/azure-pipeline'
         command: 'buildAndPush'
         Dockerfile: '**/Dockerfile'
         tags: '$(tag)'

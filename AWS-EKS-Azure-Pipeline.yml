@@ -31,3 +31,4 @@ steps:
     provider: 'aws'
     command: 'apply'
     environmentServiceNameAWS: 'Azure-to-AWS'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'

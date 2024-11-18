@@ -1,0 +1,66 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+trigger:
+- main
+
+pool:
+  name: docker-agent
+
+stages:
+- stage: Build
+  jobs:
+  - job: FirstJob
+    steps:
+     - script: echo Build FirstJob
+     - script: echo $(Build.BuildNumber)
+     - script: echo $(Build.BuildID)
+     - script: echo $(Build.SourceBranchName)
+     - script: echo $(Build.SourcesDirectory)
+     - script: echo $(System.DefaultWorkingDirectory)
+     - script: echo $(Build.ArtifactStagingDirectory)
+     - script: echo $(projectName)
+     - script: java -version
+    # - script: python --version
+    # - script: mvn -version
+     - task: CopyFiles@2
+       inputs:
+         SourceFolder: '$(System.DefaultWorkingDirectory)'
+         Contents: |
+           **/*.yaml
+           **/*.tf
+         TargetFolder: '$(Build.ArtifactStagingDirectory)'
+     - task: PublishBuildArtifacts@1
+       inputs:
+         PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+         ArtifactName: 'drop'
+         publishLocation: 'Container'
+         
+  - job: SecondJob
+    steps:
+       - script: echo Build SecondJobs
+- stage: DevDeploy
+  variables:
+    enviromnet: Dev
+  dependsOn: Build
+  jobs:
+    - job: Deploy
+      steps:
+       - script: echo Dev Deploy
+       - script: echo $(PIPELINELEVALVARIABLE)
+- stage: QaDeploy
+  dependsOn: Build
+  jobs:
+    - job: QaDeploy
+      steps:
+       - script: echo Qa Deploy
+- stage: ProdDeploy
+  dependsOn: 
+  - QaDeploy
+  - DevDeploy
+  jobs:
+    - job: ProdDeploy
+      steps:
+        - script: echo Prod Deploy  

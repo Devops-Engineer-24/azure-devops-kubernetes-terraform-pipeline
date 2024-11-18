@@ -2,9 +2,6 @@
 trigger:
 - main
 
-pool:
-      name:  docker-agent
-
 stages:
 - stage: Build
   jobs:

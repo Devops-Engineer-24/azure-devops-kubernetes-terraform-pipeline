@@ -41,7 +41,7 @@ module "in28minutes-cluster" {
   version = "19.15.3"
 
   cluster_name    = "in28minutes-cluster"
-  cluster_version = "1.29"
+  cluster_version = "1.30"
 
   subnet_ids         = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"] #CHANGE # Donot choose subnet from us-east-1e
   #subnets = data.aws_subnet_ids.subnets.ids

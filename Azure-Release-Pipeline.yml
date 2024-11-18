@@ -2,7 +2,7 @@
 trigger:
 - main
 pool:
-name: docker-agent
+    name: docker-agent
 
 
 stages:

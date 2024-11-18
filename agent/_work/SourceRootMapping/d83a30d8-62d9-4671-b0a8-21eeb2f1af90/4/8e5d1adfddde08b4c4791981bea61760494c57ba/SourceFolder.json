@@ -2,7 +2,7 @@
   "build_artifactstagingdirectory": "1\\a",
   "agent_builddirectory": "1",
   "collectionUrl": "https://dev.azure.com/BigDataApplication/",
-  "definitionName": "Devops-Engineer-24.azure-devops-kubernetes-terraform-pipeline (4)",
+  "definitionName": "azure-pipeline",
   "repositoryTrackingInfo": [
     {
       "identifier": "self",
@@ -12,7 +12,7 @@
     }
   ],
   "fileFormatVersion": 3,
-  "lastRunOn": "11/14/2024 20:26:21 +05:30",
+  "lastRunOn": "11/18/2024 21:52:57 +05:30",
   "repositoryType": "GitHub",
   "lastMaintenanceAttemptedOn": "",
   "lastMaintenanceCompletedOn": "",

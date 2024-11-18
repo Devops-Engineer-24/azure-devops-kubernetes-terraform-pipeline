@@ -1,0 +1,2139 @@
+[2024-11-15 05:55:58Z INFO Program] Version: 3.246.0
+[2024-11-15 05:55:58Z INFO Program] Commit: 59c8fe5f253ec6ff0c98d7250bd45096698b8736
+[2024-11-15 05:55:58Z INFO Program] Culture: en-IN
+[2024-11-15 05:55:58Z INFO Program] UI Culture: en-US
+[2024-11-15 05:55:58Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:58Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:58Z INFO HostContext] Well known config file 'Proxy': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.proxy'
+[2024-11-15 05:55:58Z INFO VstsAgentWebProxy] No proxy setting found.
+[2024-11-15 05:55:58Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:58Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:58Z INFO HostContext] Well known config file 'Certificates': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.certificates'
+[2024-11-15 05:55:58Z INFO AgentCertificateManager] No certificate setting found.
+[2024-11-15 05:55:58Z INFO Worker] Waiting to receive the job message from the channel.
+[2024-11-15 05:55:58Z INFO Worker] Message received.
+[2024-11-15 05:55:59Z INFO Worker] Deactivating vso commands in job message variables.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: UserSuppliedSecret
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up regex for origin: Worker_AddingMaskHint.
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: AddingMaskHint
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_IdSignature
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_RepositoryIds
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2024-11-15 05:55:59Z INFO HostContext] Setting up value for origin: Worker_EndpointAuthorizationParameters_AccessToken
+[2024-11-15 05:55:59Z INFO Worker] Job message:
+ {
+  "mask": [
+    {
+      "type": "regex",
+      "value": ***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "inputs": {
+        "repository": "self",
+        "fetchDepth": "1"
+      },
+      "type": "task",
+      "reference": {
+        "id": "6d15af64-176c-496d-b583-fd2ae21d4df4",
+        "name": "Checkout",
+        "version": "1.0.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": false,
+      "id": "194d4d49-0e66-581f-ad9d-dc60d32f2ac1",
+      "name": "__system_1",
+      "displayName": "Checkout"
+    },
+    {
+      "inputs": {
+        "script": "echo Build FirstJob"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "f8f12746-4417-5490-c7ce-79ef5ce721ba",
+      "name": "CmdLine1",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(Build.BuildNumber)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "beab9e2f-d96b-544f-180b-3e41a74eebfe",
+      "name": "CmdLine2",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(Build.BuildID)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "a9a9fd25-1b24-5f43-08ed-32b194f0f872",
+      "name": "CmdLine3",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(Build.SourceBranchName)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "48ac8cb1-4142-514c-ab6f-56107c23aca2",
+      "name": "CmdLine4",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(Build.SourcesDirectory)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "3d624ab8-9ea7-5fe6-e966-4bc29063f171",
+      "name": "CmdLine5",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(System.DefaultWorkingDirectory)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "a4d44b3f-0789-5ebf-9090-cd49b1a7243f",
+      "name": "CmdLine6",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(Build.ArtifactStagingDirectory)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "6f63c68e-60b6-582e-826f-c297137a6dec",
+      "name": "CmdLine7",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "echo $(projectName)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "12447042-52e0-503f-ce40-6185ab8052a9",
+      "name": "CmdLine8",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "java -version"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "9729c607-8084-5310-b645-85fa3fde20fb",
+      "name": "CmdLine9",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "node --version"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "1ffe6511-662a-5214-29c0-b031b00f6c19",
+      "name": "CmdLine10",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "python --version"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "aedb2a6c-a163-57eb-583e-1d768824b5bf",
+      "name": "CmdLine11",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "script": "mvn -version"
+      },
+      "type": "task",
+      "reference": {
+        "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+        "name": "CmdLine",
+        "version": "2.246.1",
+        "buildConfig": "Node20-225",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "b8de36ea-4974-510e-5a24-946d558100f3",
+      "name": "CmdLine12",
+      "displayName": "CmdLine"
+    },
+    {
+      "inputs": {
+        "SourceFolder": "$(System.DefaultWorkingDirectory)",
+        "Contents": "**/*.yaml\n**/*.tf\n",
+        "TargetFolder": "echo $(Build.ArtifactStagingDirectory)"
+      },
+      "type": "task",
+      "reference": {
+        "id": "5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c",
+        "name": "CopyFiles",
+        "version": "2.246.0",
+        "buildConfig": "Default",
+        "contributionIdentifier": null,
+        "contributionVersion": null
+      },
+      "isServerOwned": true,
+      "id": "9e160e24-7677-5720-be5a-c100d12cc211",
+      "name": "CopyFiles",
+      "displayName": "CopyFiles"
+    }
+  ],
+  "variables": {
+    "PipelineLevalVariable": {
+      "value": "My"
+    },
+    "resources.triggeringCategory": {
+      "value": ""
+    },
+    "resources.triggeringAlias": {
+      "value": ""
+    },
+    "system": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.hosttype": {
+      "value": "build",
+      "isReadOnly": true
+    },
+    "system.servertype": {
+      "value": "Hosted",
+      "isReadOnly": true
+    },
+    "system.culture": {
+      "value": "en-US",
+      "isReadOnly": true
+    },
+    "system.collectionId": {
+      "value": "d83a30d8-62d9-4671-b0a8-21eeb2f1af90",
+      "isReadOnly": true
+    },
+    "system.collectionUri": {
+      "value": "https://dev.azure.com/BigDataApplication/",
+      "isReadOnly": true
+    },
+    "system.teamFoundationCollectionUri": {
+      "value": "https://dev.azure.com/BigDataApplication/",
+      "isReadOnly": true
+    },
+    "system.taskDefinitionsUri": {
+      "value": "https://dev.azure.com/BigDataApplication/",
+      "isReadOnly": true
+    },
+    "system.pipelineStartTime": {
+      "value": "2024-11-15 05:55:56+00:00",
+      "isReadOnly": true
+    },
+    "system.teamProject": {
+      "value": "Azure-Devops-Demo",
+      "isReadOnly": true
+    },
+    "system.teamProjectId": {
+      "value": "c06c04be-b052-444e-a129-87293ffc5d3a",
+      "isReadOnly": true
+    },
+    "system.definitionId": {
+      "value": "4",
+      "isReadOnly": true
+    },
+    "build.definitionName": {
+      "value": "azure-pipeline",
+      "isReadOnly": true
+    },
+    "build.repository.id": {
+      "value": "Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+      "isReadOnly": true
+    },
+    "build.repository.name": {
+      "value": "Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+      "isReadOnly": true
+    },
+    "build.repository.uri": {
+      "value": "https://github.com/Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+      "isReadOnly": true
+    },
+    "build.definitionVersion": {
+      "value": "5",
+      "isReadOnly": true
+    },
+    "USE_MSDEPLOY_TOKEN_AUTH": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AddForceCredentialsToGitCheckout": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.AgentEnablePipelineArtifactLargeChunkSize": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.CheckIfTaskNodeRunnerIsDeprecated246": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ContinueAfterCancelProcessTreeKillAttempt": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.DockerActionRetries": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableAdditionalMaskingRegexes": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableIssueSourceValidation": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceMonitorDebugOutput": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.EnableResourceUtilizationWarnings": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedBuildTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailDeprecatedTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FailJobWhenAgentDies": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.FixPossibleGitOutOfMemoryProblem": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ForceUpdateToLatest2Version": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.IgnoreVSTSTaskLib": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogTaskNameInUserAgent": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.LogToBlobstorageService": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.MountWorkspace": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.ReadOnlyVariables": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.Rosetta2Warning": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseDockerComposeV2CompatibleMode": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseFetchFilterInCheckoutTask": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseGitLongPaths": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseLatestGitVersion": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseMsalLibrary": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.USENEWNODEHANDLERTELEMETRY": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseNode20ToStartContainer": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Agent.UseWorkspaceId": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.CopyFilesOverSSHV0UseQueue": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.Node.SkipDebugLogsWhenDebugModeOff": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "DistributedTask.Tasks.RetireAzureRMPowerShellModule": {
+      "value": "True",
+      "isReadOnly": true
+    },
+    "build.definitionFolderPath": {
+      "value": "\\",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_CONTINUE_AFTER_CANCEL_PROCESSTREEKILL_ATTEMPT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "VSTSAGENT_DOCKER_ACTION_RETRIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_MSAL": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_COLLECT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_PH_LOGIC": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_CHECK_FOR_TASK_DEPRECATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_MOUNT_WORKSPACE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_IGNORE_VSTSTASKLIB": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_PS_ENABLE_INVOKE_PROCESS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_AGENT_LOG_TASKNAME_IN_USERAGENT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AGENT_USE_FETCH_FILTER_IN_CHECKOUT_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AZP_75787_ENABLE_NEW_LOGIC_LOG": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "AGENT_ENABLE_PIPELINEARTIFACT_LARGE_CHUNK_SIZE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_JOB_WHEN_AGENT_DIES": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_LATEST_GIT_VERSION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "USE_GIT_LONG_PATHS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ENABLE_ISSUE_SOURCE_VALIDATION": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "RETIRE_AZURERM_POWERSHELL_MODULE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_MONITOR_DEBUG_OUTPUT": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "AZP_ENABLE_RESOURCE_UTILIZATION_WARNINGS": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "FAIL_DEPRECATED_BUILD_TASK": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "ROSETTA2_WARNING": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "COPYFILESOVERSSHV0_USE_QUEUE": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.queuedBy": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.queuedById": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.requestedFor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.requestedForId": {
+      "value": "00000002-0000-8888-8000-000000000000",
+      "isReadOnly": true
+    },
+    "build.requestedForEmail": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceVersionMessage": {
+      "value": "Update azure-pipelines-1.yml for Azure Pipelines",
+      "isReadOnly": true
+    },
+    "build.sourceVersion": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranch": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.sourceBranchName": {
+      "value": "[PII]",
+      "isReadOnly": true
+    },
+    "build.reason": {
+      "value": "IndividualCI",
+      "isReadOnly": true
+    },
+    "system.pullRequest.isFork": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.jobParallelismTag": {
+      "value": "Private",
+      "isReadOnly": true
+    },
+    "system.enableAccessToken": {
+      "value": "SecretVariable",
+      "isReadOnly": true
+    },
+    "MSDEPLOY_HTTP_USER_AGENT": {
+      "value": "VSTS_d83a30d8-62d9-4671-b0a8-21eeb2f1af90_build_4_0",
+      "isReadOnly": true
+    },
+    "AZURE_HTTP_USER_AGENT": {
+      "value": "VSTS_d83a30d8-62d9-4671-b0a8-21eeb2f1af90_build_4_0",
+      "isReadOnly": true
+    },
+    "build.buildId": {
+      "value": "51",
+      "isReadOnly": true
+    },
+    "build.buildUri": {
+      "value": "vstfs:///Build/Build/51",
+      "isReadOnly": true
+    },
+    "build.buildNumber": {
+      "value": "20241115.7",
+      "isReadOnly": true
+    },
+    "build.containerId": {
+      "value": "25507461",
+      "isReadOnly": true
+    },
+    "system.isScheduled": {
+      "value": "False",
+      "isReadOnly": true
+    },
+    "system.definitionName": {
+      "value": "azure-pipeline",
+      "isReadOnly": true
+    },
+    "system.planId": {
+      "value": "d54dcb48-10d2-425f-b082-96752e0db2a7",
+      "isReadOnly": true
+    },
+    "system.timelineId": {
+      "value": "d54dcb48-10d2-425f-b082-96752e0db2a7",
+      "isReadOnly": true
+    },
+    "system.stageDisplayName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.stageId": {
+      "value": "6884a131-87da-5381-61f3-d7acc3b91d76",
+      "isReadOnly": true
+    },
+    "system.stageName": {
+      "value": "Build",
+      "isReadOnly": true
+    },
+    "system.stageAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.phaseDisplayName": {
+      "value": "FirstJob",
+      "isReadOnly": true
+    },
+    "system.phaseId": {
+      "value": "00a715fd-9c82-5039-ddea-10a335b7189f",
+      "isReadOnly": true
+    },
+    "system.phaseName": {
+      "value": "FirstJob",
+      "isReadOnly": true
+    },
+    "system.phaseAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobIdentifier": {
+      "value": "Build.FirstJob.__default",
+      "isReadOnly": true
+    },
+    "system.jobAttempt": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.JobPositionInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1",
+      "isReadOnly": true
+    },
+    "system.jobDisplayName": {
+      "value": "FirstJob",
+      "isReadOnly": true
+    },
+    "system.jobId": {
+      "value": "41e59a54-3159-576c-efb3-32329de30613",
+      "isReadOnly": true
+    },
+    "system.jobName": {
+      "value": "__default",
+      "isReadOnly": true
+    },
+    "system.jobTimeout": {
+      "value": "60",
+      "isReadOnly": true
+    },
+    "system.accessToken": {
+      "value": ***
+      "isSecret": true
+    },
+    "agent.retainDefaultEncoding": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.LogToBlobstorageService": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.readOnlyVariables": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "agent.useWorkspaceId": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "system.postLinesSpeed": {
+      "value": "500",
+      "isReadOnly": true
+    },
+    "agent.taskRestrictionsEnforcementMode": {
+      "value": "Enabled",
+      "isReadOnly": true
+    },
+    "System.OidcRequestUri": {
+      "value": "https://dev.azure.com/BigDataApplication/c06c04be-b052-444e-a129-87293ffc5d3a/_apis/distributedtask/hubs/build/plans/d54dcb48-10d2-425f-b082-96752e0db2a7/jobs/41e59a54-3159-576c-efb3-32329de30613/oidctoken",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestResultLogPlugin": {
+      "value": "false",
+      "isReadOnly": true
+    },
+    "agent.disablelogplugin.TestFilePublisherPlugin": {
+      "value": "true",
+      "isReadOnly": true
+    },
+    "build.sourceVersionAuthor": {
+      "value": "[PII]",
+      "isReadOnly": true
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "c06c04be-b052-444e-a129-87293ffc5d3a",
+    "planType": "Build",
+    "version": 18,
+    "planId": "d54dcb48-10d2-425f-b082-96752e0db2a7",
+    "planGroup": "Build:c06c04be-b052-444e-a129-87293ffc5d3a:51",
+    "artifactUri": "vstfs:///Build/Build/51",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/BigDataApplication/c06c04be-b052-444e-a129-87293ffc5d3a/_build/definition?definitionId=4"
+        },
+        "self": {
+          "href": "https://dev.azure.com/BigDataApplication/c06c04be-b052-444e-a129-87293ffc5d3a/_apis/build/Definitions/4"
+        }
+      },
+      "id": 4,
+      "name": "azure-pipeline"
+    },
+    "owner": {
+      "_links": {
+        "web": {
+          "href": "https://dev.azure.com/BigDataApplication/c06c04be-b052-444e-a129-87293ffc5d3a/_build/results?buildId=51"
+        },
+        "self": {
+          "href": "https://dev.azure.com/BigDataApplication/c06c04be-b052-444e-a129-87293ffc5d3a/_apis/build/Builds/51"
+        }
+      },
+      "id": 51,
+      "name": "20241115.7"
+    }
+  },
+  "timeline": {
+    "id": "d54dcb48-10d2-425f-b082-96752e0db2a7",
+    "changeId": 17,
+    "location": null
+  },
+  "jobId": "41e59a54-3159-576c-efb3-32329de30613",
+  "jobDisplayName": "FirstJob",
+  "jobName": "__default",
+  "jobContainer": null,
+  "requestId": 0,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "pipelinesSourceProvider": "github",
+          "AvatarUrl": "https://avatars.githubusercontent.com/u/187632560?v=4"
+        },
+        "id": "982aed04-b612-4c7e-bc41-82fa75cf636e",
+        "name": "Devops-Engineer-24",
+        "type": "GitHub",
+        "owner": "Library",
+        "url": "https://github.com",
+        "createdBy": {
+          "displayName": "Mayur Mahajan",
+          "url": "https://spsprodcin1.vssps.visualstudio.com/A6ce683bd-7433-46eb-91ff-c62feb6089a9/_apis/Identities/87ca6889-187b-6993-ac8d-0348326967b6",
+          "_links": {
+            "avatar": {
+              "href": "https://dev.azure.com/BigDataApplication/_apis/GraphProfile/MemberAvatars/msa.ODdjYTY4ODktMTg3Yi03OTkzLWFjOGQtMDM0ODMyNjk2N2I2"
+            }
+          },
+          "id": "87ca6889-187b-6993-ac8d-0348326967b6",
+          "uniqueName": "mayur.mahajan24@outlook.com",
+          "imageUrl": "https://dev.azure.com/BigDataApplication/_apis/GraphProfile/MemberAvatars/msa.ODdjYTY4ODktMTg3Yi03OTkzLWFjOGQtMDM0ODMyNjk2N2I2",
+          "descriptor": "msa.ODdjYTY4ODktMTg3Yi03OTkzLWFjOGQtMDM0ODMyNjk2N2I2"
+        },
+        "description": "",
+        "authorization": {
+          "parameters": {
+            "IdToken": "57156973",
+            "IdSignature": "***
+            "RepositoryIds": "***",
+            "AccessToken": ***
+          },
+          "scheme": "Token"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      },
+      {
+        "data": {
+          "ServerId": "d83a30d8-62d9-4671-b0a8-21eeb2f1af90",
+          "ServerName": "BigDataApplication"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://dev.azure.com/BigDataApplication/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "serviceManagementReference": null,
+        "isShared": false,
+        "isReady": true
+      }
+    ],
+    "repositories": [
+      {
+        "properties": {
+          "id": "Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+          "type": "GitHub",
+          "version": "0f2f9158f523b21bf1dc476b7d2736c4f4bfcfe6",
+          "name": "Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+          "ref": "refs/heads/main",
+          "defaultBranch": "refs/heads/main",
+          "externalId": "***",
+          "project": "c06c04be-b052-444e-a129-87293ffc5d3a",
+          "url": "https://github.com:443/Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline",
+          "versionInfo": {
+            "author": "[PII]"
+          },
+          "checkoutOptions": {
+            "fetchDepth": "1"
+          },
+          "system.istriggeringrepository": true
+        },
+        "alias": "self",
+        "endpoint": {
+          "id": "982aed04-b612-4c7e-bc41-82fa75cf636e"
+        }
+      }
+    ]
+  },
+  "workspace": {}
+}
+[2024-11-15 05:55:59Z INFO JobRunner] Job ID 41e59a54-3159-576c-efb3-32329de30613
+[2024-11-15 05:55:59Z INFO JobRunner] Creating job server with URL: https://dev.azure.com/BigDataApplication/
+[2024-11-15 05:55:59Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-15 05:55:59Z INFO Worker] Listening for cancel message from the channel.
+[2024-11-15 05:55:59Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2024-11-15 05:55:59Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-15 05:55:59Z INFO JobServerQueue] Start process web console line queue.
+[2024-11-15 05:55:59Z INFO JobServerQueue] Start process file upload queue.
+[2024-11-15 05:55:59Z INFO JobServerQueue] Start process timeline update queue.
+[2024-11-15 05:55:59Z INFO ConfigurationStore] currentAssemblyLocation: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.Worker.dll
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] binPath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] RootFolder: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'Agent': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] ConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.agent
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'Credentials': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] CredFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.credentials
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'Service': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] ServiceConfigFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.service
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'Autologon': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] AutoLogonSettingsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.autologon
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'Options': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] RuntimeOptionsFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.options
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known config file 'SetupInfo': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info'
+[2024-11-15 05:55:59Z INFO ConfigurationStore] SetupInfoFilePath: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\.setup_info
+[2024-11-15 05:55:59Z INFO ConfigurationStore] Read setting file: 181 chars
+[2024-11-15 05:55:59Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:55:59Z INFO ExecutionContext] WorkspaceIdentifier '8e5d1adfddde08b4c4791981bea61760494c57ba' created for repos Microsoft.VisualStudio.Services.Agent.Worker.Build.RepositoryTrackingInfo
+[2024-11-15 05:55:59Z INFO HostContext] Removing short secrets from masking dictionary
+[2024-11-15 05:55:59Z INFO JobRunner] Starting the job execution context.
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO JobRunner] Validating directory permissions for: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Externals': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\externals'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'ServerOM': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\externals\vstsom'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Tools': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tool'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Temp': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_temp'
+[2024-11-15 05:55:59Z INFO JobRunner] Creating task server with https://dev.azure.com/BigDataApplication/
+[2024-11-15 05:55:59Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-15 05:55:59Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-15 05:55:59Z INFO JobRunner] Getting job extension.
+[2024-11-15 05:55:59Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildJobExtension, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseJobExtension, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.DeploymentJobExtension, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Maintenance.MaintenanceJobExtension, Agent.Worker
+[2024-11-15 05:55:59Z INFO JobRunner] Initialize job. Getting all job steps.
+[2024-11-15 05:55:59Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:55:59Z INFO BuildJobExtension] Image version for job id 41e59a54-3159-576c-efb3-32329de30613 is not set
+[2024-11-15 05:55:59Z INFO BuildJobExtension] Run initial step from extension BuildJobExtension.
+[2024-11-15 05:55:59Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ExternalGitSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.GitHubEnterpriseSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BitbucketSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.SvnSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsGitSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.TfsVCSourceProvider, Agent.Worker
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:55:59Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO BuildDirectoryManager] Checking if artifacts directory exists: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\a'
+[2024-11-15 05:56:00Z INFO BuildDirectoryManager] Creating artifacts directory.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO BuildDirectoryManager] Checking if test results directory exists: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\TestResults'
+[2024-11-15 05:56:00Z INFO BuildDirectoryManager] Creating test results directory.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO BuildDirectoryManager] Set repository path for repository self to 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO BuildJobExtension] Checking repository name self
+[2024-11-15 05:56:00Z INFO BuildJobExtension] Downloading task definitions.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known config file 'TaskExceptionList': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\tasks-exception-list.json'
+[2024-11-15 05:56:00Z INFO TaskManager] Skip download checkout task.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:00Z INFO TaskManager] Ensuring task exists: ID 'd9bafed4-0b18-4f58-968d-86655b4d2ce9', version '2.246.1', name 'CmdLine', directory 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:00Z INFO TaskManager] Ensuring task exists: ID '5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c', version '2.246.0', name 'CopyFiles', directory 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CopyFiles_5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c\2.246.0'.
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:00Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '41e59a54-3159-576c-efb3-32329de30613', success rate: 1/1.
+[2024-11-15 05:56:00Z INFO TaskManager] The 'CopyFiles' task downloading started.
+[2024-11-15 05:56:00Z INFO TaskManager] The 'CopyFiles' task downloading finished.
+[2024-11-15 05:56:00Z INFO JobServerQueue] Try to append 1 batches web console lines for record '581ac06c-8b76-4b8f-b72b-8a2dd3e04549', success rate: 1/1.
+[2024-11-15 05:56:01Z INFO TaskManager] Finished getting task.
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:01Z INFO BuildJobExtension] Downloading Node 6 runner.
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:01Z INFO HostContext] Well known directory 'Externals': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\externals'
+[2024-11-15 05:56:01Z INFO NodeJsUtil] Node 6 runner already exist.
+[2024-11-15 05:56:02Z INFO BuildJobExtension] Parsing all task's condition inputs.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Start flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:02Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CopyFiles_5bfb729a-a7c8-4a78-a7c3-8d717bb7c13c\2.246.0\task.json'.
+[2024-11-15 05:56:02Z INFO BuildJobExtension] Adding pre-job step from extension.
+[2024-11-15 05:56:02Z INFO BuildJobExtension] Adding post-job step from extension.
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO BuildJobExtension] Adding post-job steps from tasks.
+[2024-11-15 05:56:02Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   File name: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.PluginHost.exe'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Arguments: 'log "1e27d463-a10a-49fa-a9cd-a82f74ff45ea"'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] Process started with process id 19592, waiting for process exit.
+[2024-11-15 05:56:02Z INFO AgentLogPlugin] Send serialized context through STDIN
+[2024-11-15 05:56:02Z INFO BuildJobExtension] Total accessible running process: 250.
+[2024-11-15 05:56:02Z INFO JobRunner] Total job steps: 15.
+[2024-11-15 05:56:02Z INFO JobRunner] Run all job steps.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Start flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Start flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Start flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Finsh flush buffered output.
+[2024-11-15 05:56:02Z INFO AsyncCommandContext] Wait till async command task to finish.
+[2024-11-15 05:56:02Z INFO StepsRunner] Processing step: DisplayName='Checkout Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline@main to s', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:02Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '581ac06c-8b76-4b8f-b72b-8a2dd3e04549', success rate: 1/1.
+[2024-11-15 05:56:02Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:02Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:02Z INFO JobServerQueue] Try to append 1 batches web console lines for record '41e59a54-3159-576c-efb3-32329de30613', success rate: 1/1.
+[2024-11-15 05:56:02Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:02Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:02Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2024-11-15 05:56:02Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IWorkerCommandExtension'
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TaskCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.ArtifactCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Build.BuildCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.CodeCoverage.CodeCoverageCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.TestResults.ResultsCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Telemetry.TelemetryCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.Release.ReleaseCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO ExtensionManager] Creating instance: Microsoft.VisualStudio.Services.Agent.Worker.PluginInternalCommandExtension, Agent.Worker
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area task
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area artifact
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area build
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area codecoverage
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area results
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area telemetry
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area release
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Register command extension for area plugininternal
+[2024-11-15 05:56:02Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CheckoutTask, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.Repository.CleanupTask, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '6d15af64-176c-496d-b583-fd2ae21d4df4' (post).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTask, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTask, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV1, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.SavePipelineCacheV0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (post).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineCache.RestorePipelineCacheV0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'd53ccab4-555e-4494-9d06-11db043fb4a9' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_1, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_2, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV1_1_3, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.DownloadPipelineArtifactTaskV2_0_0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id '61f2a582-95ae-4948-b34d-a1b3c4f6a737' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.PipelineArtifact.PublishPipelineArtifactTaskV0_140_0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'ecdc45f6-832d-4ad9-b52b-ee49e94659be' (main).
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Load task plugin from 'Agent.Plugins.BuildArtifacts.DownloadBuildArtifactTaskV1_0_0, Agent.Plugins'.
+[2024-11-15 05:56:02Z INFO AgentPluginManager] Loaded task plugin id 'a433f589-fce1-4460-9ee6-44a624aeb1fb' (main).
+[2024-11-15 05:56:02Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   File name: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.PluginHost.exe'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CheckoutTask, Agent.Plugins"'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] Process started with process id 15604, waiting for process exit.
+[2024-11-15 05:56:02Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2024-11-15 05:56:02Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2024-11-15 05:56:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '581ac06c-8b76-4b8f-b72b-8a2dd3e04549', success rate: 1/1.
+[2024-11-15 05:56:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '41e59a54-3159-576c-efb3-32329de30613', success rate: 1/1.
+[2024-11-15 05:56:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:03Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:04Z INFO HostContext] Setting up value for origin: TaskSetSecretCommand
+[2024-11-15 05:56:04Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:05Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:06Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-15 05:56:06Z INFO VisualStudioServices] Starting operation Location.GetConnectionData
+[2024-11-15 05:56:06Z INFO VisualStudioServices] Finished operation Location.GetConnectionData
+[2024-11-15 05:56:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:07Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-11-15 05:56:07Z INFO HostContext] Setting up value for origin: Variables_Set_repoUrlWithCred
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] Exited process 15604 with exit code 0
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] Finished process 15604 with exit code 0, and elapsed time 00:00:04.4422456.
+[2024-11-15 05:56:07Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2024-11-15 05:56:07Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:07Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:07Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:07Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:07Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:07Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:07Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:07Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:07Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:07Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:07Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:07Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:07Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:07Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:07Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:07Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:07Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:07Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:07Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:07Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:07Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:07Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:07Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:07Z INFO ProcessInvokerWrapper] Process started with process id 17388, waiting for process exit.
+[2024-11-15 05:56:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record '194d4d49-0e66-581f-ad9d-dc60d32f2ac1', success rate: 1/1.
+[2024-11-15 05:56:07Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8f12746-4417-5490-c7ce-79ef5ce721ba', success rate: 1/1.
+[2024-11-15 05:56:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8f12746-4417-5490-c7ce-79ef5ce721ba', success rate: 1/1.
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] Exited process 17388 with exit code 0
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] Finished process 17388 with exit code 0, and elapsed time 00:00:01.0358432.
+[2024-11-15 05:56:08Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:08Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:08Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:08Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:08Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:08Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:08Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:08Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:08Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:08Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:08Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:08Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:08Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:08Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:08Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:08Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:08Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:08Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:08Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:08Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:08Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:08Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:08Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:08Z INFO ProcessInvokerWrapper] Process started with process id 10328, waiting for process exit.
+[2024-11-15 05:56:08Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-11-15 05:56:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'f8f12746-4417-5490-c7ce-79ef5ce721ba', success rate: 1/1.
+[2024-11-15 05:56:08Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'beab9e2f-d96b-544f-180b-3e41a74eebfe', success rate: 1/1.
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] Exited process 10328 with exit code 0
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] Finished process 10328 with exit code 0, and elapsed time 00:00:01.0034127.
+[2024-11-15 05:56:09Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:09Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:09Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:09Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:09Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:09Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:09Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:09Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:09Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:09Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:09Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:09Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:09Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:09Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:09Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:09Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:09Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:09Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:09Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:09Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:09Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:09Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:09Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:09Z INFO ProcessInvokerWrapper] Process started with process id 8660, waiting for process exit.
+[2024-11-15 05:56:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'beab9e2f-d96b-544f-180b-3e41a74eebfe', success rate: 1/1.
+[2024-11-15 05:56:09Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a9a9fd25-1b24-5f43-08ed-32b194f0f872', success rate: 1/1.
+[2024-11-15 05:56:10Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] Exited process 8660 with exit code 0
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] Finished process 8660 with exit code 0, and elapsed time 00:00:00.9874498.
+[2024-11-15 05:56:10Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:10Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:10Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:10Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:10Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:10Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:10Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:10Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:10Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:10Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:10Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:10Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:10Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:10Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:10Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:10Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:10Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:10Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:10Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:10Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:10Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:10Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:10Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:10Z INFO ProcessInvokerWrapper] Process started with process id 9308, waiting for process exit.
+[2024-11-15 05:56:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a9a9fd25-1b24-5f43-08ed-32b194f0f872', success rate: 1/1.
+[2024-11-15 05:56:10Z INFO JobServerQueue] Try to append 1 batches web console lines for record '48ac8cb1-4142-514c-ab6f-56107c23aca2', success rate: 1/1.
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] Exited process 9308 with exit code 0
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] Finished process 9308 with exit code 0, and elapsed time 00:00:00.9494908.
+[2024-11-15 05:56:11Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:11Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:11Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:11Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:11Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:11Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:11Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:11Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:11Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:11Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:11Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:11Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:11Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:11Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:11Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:11Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:11Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:11Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:11Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:11Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:11Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:11Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:11Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:11Z INFO ProcessInvokerWrapper] Process started with process id 14484, waiting for process exit.
+[2024-11-15 05:56:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record '48ac8cb1-4142-514c-ab6f-56107c23aca2', success rate: 1/1.
+[2024-11-15 05:56:11Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-11-15 05:56:11Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3d624ab8-9ea7-5fe6-e966-4bc29063f171', success rate: 1/1.
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] Exited process 14484 with exit code 0
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] Finished process 14484 with exit code 0, and elapsed time 00:00:01.0204250.
+[2024-11-15 05:56:12Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:12Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:12Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:12Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:12Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:12Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:12Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:12Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:12Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:12Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:12Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:12Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:12Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:12Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:12Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:12Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:12Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:12Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:12Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:12Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:12Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:12Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:12Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:12Z INFO ProcessInvokerWrapper] Process started with process id 8172, waiting for process exit.
+[2024-11-15 05:56:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record '3d624ab8-9ea7-5fe6-e966-4bc29063f171', success rate: 1/1.
+[2024-11-15 05:56:12Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a4d44b3f-0789-5ebf-9090-cd49b1a7243f', success rate: 1/1.
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] Exited process 8172 with exit code 0
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] Finished process 8172 with exit code 0, and elapsed time 00:00:00.9984037.
+[2024-11-15 05:56:13Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:13Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:13Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:13Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:13Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:13Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:13Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:13Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:13Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:13Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:13Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:13Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:13Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:13Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:13Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:13Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:13Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:13Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:13Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:13Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:13Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:13Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:13Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:13Z INFO ProcessInvokerWrapper] Process started with process id 7192, waiting for process exit.
+[2024-11-15 05:56:13Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2024-11-15 05:56:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'a4d44b3f-0789-5ebf-9090-cd49b1a7243f', success rate: 1/1.
+[2024-11-15 05:56:13Z INFO JobServerQueue] Try to append 1 batches web console lines for record '6f63c68e-60b6-582e-826f-c297137a6dec', success rate: 1/1.
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] Exited process 7192 with exit code 0
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] Finished process 7192 with exit code 0, and elapsed time 00:00:01.0160191.
+[2024-11-15 05:56:14Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:14Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:14Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:14Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:14Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:14Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:14Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:14Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:14Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:14Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:14Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:14Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:14Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:14Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:14Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:14Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:14Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:14Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:14Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:14Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:14Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:14Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:14Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:14Z INFO ProcessInvokerWrapper] Process started with process id 8392, waiting for process exit.
+[2024-11-15 05:56:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '6f63c68e-60b6-582e-826f-c297137a6dec', success rate: 1/1.
+[2024-11-15 05:56:14Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12447042-52e0-503f-ce40-6185ab8052a9', success rate: 1/1.
+[2024-11-15 05:56:15Z INFO JobServerQueue] Try to upload 2 log files or attachments, success rate: 2/2.
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] Exited process 8392 with exit code 0
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] Finished process 8392 with exit code 0, and elapsed time 00:00:01.0244303.
+[2024-11-15 05:56:15Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:15Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:15Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:15Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:15Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:15Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:15Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:15Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:15Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:15Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:15Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:15Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:15Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:15Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:15Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:15Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:15Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:15Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:15Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:15Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:15Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:15Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:15Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:15Z INFO ProcessInvokerWrapper] Process started with process id 684, waiting for process exit.
+[2024-11-15 05:56:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '12447042-52e0-503f-ce40-6185ab8052a9', success rate: 1/1.
+[2024-11-15 05:56:15Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9729c607-8084-5310-b645-85fa3fde20fb', success rate: 1/1.
+[2024-11-15 05:56:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9729c607-8084-5310-b645-85fa3fde20fb', success rate: 1/1.
+[2024-11-15 05:56:16Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] Exited process 684 with exit code 0
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] Finished process 684 with exit code 0, and elapsed time 00:00:01.2709073.
+[2024-11-15 05:56:16Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:16Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:16Z INFO StepsRunner] Current state: job state = ''
+[2024-11-15 05:56:16Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:16Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:16Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:16Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:16Z INFO TaskRunner] Allow publishing telemetry for CmdLine@2.246.1 task: True
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:16Z INFO HostContext] Well known directory 'TaskZips': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_taskzips'
+[2024-11-15 05:56:16Z INFO TaskManager] Loading task definition 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\task.json'.
+[2024-11-15 05:56:16Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:16Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.PowerShell3HandlerData
+[2024-11-15 05:56:16Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.IJobExtension'
+[2024-11-15 05:56:16Z INFO ExtensionManager] Getting extensions for interface: 'Microsoft.VisualStudio.Services.Agent.Worker.Build.ISourceProvider'
+[2024-11-15 05:56:16Z INFO BuildJobExtension] Build JobExtension resolving path use source provide: 
+[2024-11-15 05:56:16Z INFO BuildJobExtension] The Default Path Root of Build JobExtension is repository.path: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:16Z INFO BuildJobExtension] After prefix Default Path Root provide by JobExtension: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:16Z INFO BuildJobExtension] Return absolute path after prefix DefaultPathRoot: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:16Z INFO TaskRunner] Build JobExtension resolved a rooted path:: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\1\s
+[2024-11-15 05:56:16Z INFO PowerShell3Handler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:16Z INFO TaskRunner] Current handler is PowerShell3. Trying to determing the SDK version.
+[2024-11-15 05:56:16Z INFO TaskRunner] PowerShell SDK version: 0.20.1. Correlation ID is required: True.
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Generation: '1'
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\1\PowerShellEngine', value name 'PowerShellVersion': '2.0'
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Unsupported version. Skipping.
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Generation: '3'
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'PowerShellVersion': '5.1.22621.1'
+[2024-11-15 05:56:16Z INFO PowerShellExeUtil] Key name 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\PowerShell\3\PowerShellEngine', value name 'ApplicationBase': 'C:\Windows\System32\WindowsPowerShell\v1.0'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   File name: 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Arguments: '-NoLogo -Sta -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command ". ([scriptblock]::Create('if ([Console]::InputEncoding -is [Text.UTF8Encoding] -and [Console]::InputEncoding.GetPreamble().Length -ne 0) { [Console]::InputEncoding = New-Object Text.UTF8Encoding $false } if (!$PSHOME) { $null = Get-Item -LiteralPath ''variable:PSHOME'' } else { Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Management\Microsoft.PowerShell.Management.psd1'')) ; Import-Module -Name ([System.IO.Path]::Combine($PSHOME, ''Modules\Microsoft.PowerShell.Utility\Microsoft.PowerShell.Utility.psd1'')) }')) 2>&1 | ForEach-Object { Write-Verbose $_.Exception.Message -Verbose } ; Import-Module -Name 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\ps_modules\VstsTaskSdk\VstsTaskSdk.psd1' -ArgumentList @{ NonInteractive = $true } -ErrorAction Stop ; $VerbosePreference = 'SilentlyContinue' ; $DebugPreference = 'SilentlyContinue' ; Invoke-VstsTaskScript -ScriptBlock ([scriptblock]::Create('. ''D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1\cmdline.ps1'''))"'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks\CmdLine_d9bafed4-0b18-4f58-968d-86655b4d2ce9\2.246.1'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'True'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:16Z INFO ProcessInvokerWrapper] Process started with process id 20316, waiting for process exit.
+[2024-11-15 05:56:16Z INFO JobServerQueue] Stop aggressive process web console line queue.
+[2024-11-15 05:56:16Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9729c607-8084-5310-b645-85fa3fde20fb', success rate: 1/1.
+[2024-11-15 05:56:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1ffe6511-662a-5214-29c0-b031b00f6c19', success rate: 1/1.
+[2024-11-15 05:56:17Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1ffe6511-662a-5214-29c0-b031b00f6c19', success rate: 1/1.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Exited process 20316 with exit code 0
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Finished process 20316 with exit code 0, and elapsed time 00:00:01.0406732.
+[2024-11-15 05:56:17Z INFO StepsRunner] Step result: Failed
+[2024-11-15 05:56:17Z INFO StepsRunner] Update job result with current step result 'Failed'.
+[2024-11-15 05:56:17Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-11-15 05:56:17Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:17Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:17Z INFO ExpressionManager] Result: False
+[2024-11-15 05:56:17Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-11-15 05:56:17Z INFO StepsRunner] Processing step: DisplayName='CmdLine', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:17Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:17Z INFO ExpressionManager] Result: False
+[2024-11-15 05:56:17Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-11-15 05:56:17Z INFO StepsRunner] Processing step: DisplayName='CopyFiles', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:17Z INFO ExpressionManager] Evaluating: SucceededNode()
+[2024-11-15 05:56:17Z INFO ExpressionManager] Result: False
+[2024-11-15 05:56:17Z INFO StepsRunner] Skipping step due to condition evaluation.
+[2024-11-15 05:56:17Z INFO StepsRunner] Processing step: DisplayName='Checkout Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline@main to s', ContinueOnError=False, Enabled=True
+[2024-11-15 05:56:17Z INFO ExpressionManager] Evaluating: AlwaysNode()
+[2024-11-15 05:56:17Z INFO ExpressionManager] Result: True
+[2024-11-15 05:56:17Z INFO StepsRunner] Starting the step.
+[2024-11-15 05:56:17Z INFO TaskRunner] Allow publishing telemetry for Checkout@1.0.0 task: True
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Tasks': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_tasks'
+[2024-11-15 05:56:17Z INFO TaskRunner] Get handler data for target platform Windows
+[2024-11-15 05:56:17Z INFO TaskRunner] Handler data is of type Microsoft.VisualStudio.Services.Agent.Worker.AgentPluginHandlerData
+[2024-11-15 05:56:17Z INFO AgentPluginHandler] Handler.AfterExecutionContextInitialized _continueAfterCancelProcessTreeKillAttempt = True
+[2024-11-15 05:56:17Z INFO WorkerCommandManager] Enable plugin internal command extension.
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:17Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Starting process:
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   File name: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin\Agent.PluginHost.exe'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Arguments: 'task "Agent.Plugins.Repository.CleanupTask, Agent.Plugins"'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Working directory: 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Require exit code zero: 'True'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Encoding web name: utf-8 ; code page: '65001'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'True'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   ContinueAfterCancelProcessTreeKillAttempt: 'False'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Sigint timeout: '00:00:07.5000000'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Sigterm timeout: '00:00:02.5000000'
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper]   Try to use graceful shutdown: False
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] OOM score adjustment is Linux-only.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Process started with process id 19532, waiting for process exit.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Close STDIN after the first redirect finished.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2024-11-15 05:56:17Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Exited process 19532 with exit code 0
+[2024-11-15 05:56:17Z INFO ProcessInvokerWrapper] Finished process 19532 with exit code 0, and elapsed time 00:00:00.3002336.
+[2024-11-15 05:56:17Z INFO WorkerCommandManager] Disable plugin internal command extension.
+[2024-11-15 05:56:17Z INFO StepsRunner] Step result: 
+[2024-11-15 05:56:17Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2024-11-15 05:56:17Z INFO StepsRunner] Current state: job state = 'Failed'
+[2024-11-15 05:56:17Z INFO JobRunner] Finalize job.
+[2024-11-15 05:56:17Z INFO ExecutionContext] Logs streaming mode: StreamToServer
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] Send instruction code through STDIN to stop plugin host
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] Waiting for plugin host exit
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] Start output buffer monitor.
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] Start process task for plugin 'TestResultLogParser'
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] Start process task for plugin 'TestFilePublisher'
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] TestFilePublisher: Skip process outputs base on plugin initialize result.
+[2024-11-15 05:56:17Z INFO AgentLogPlugin] TestFilePublisher: Process remaining outputs after job finished.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '1ffe6511-662a-5214-29c0-b031b00f6c19', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'aedb2a6c-a163-57eb-583e-1d768824b5bf', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'b8de36ea-4974-510e-5a24-946d558100f3', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Job has finished, start shutting down log output processing process.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Wait for all plugins finish process outputs.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '9e160e24-7677-5720-be5a-c100d12cc211', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:18Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '59a615e1-1e34-43f6-a6d9-e3790bdd12bd', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO ProcessInvokerWrapper] Exited process 19592 with exit code 0
+[2024-11-15 05:56:18Z INFO ProcessInvokerWrapper] STDIN stream write finished.
+[2024-11-15 05:56:18Z INFO ProcessInvokerWrapper] Finished process 19592 with exit code 0, and elapsed time 00:00:16.0694835.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] TestResultLogParser: Process remaining outputs after job finished.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Plugin 'TestResultLogParser' finished log process.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Plugin 'TestFilePublisher' finished log process.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Output buffer monitor stopped.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Start finalize for plugin 'TestResultLogParser'
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Skip finalize for short circuited plugin 'TestFilePublisher'
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Wait for all plugins finish finalization.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] Plugin 'TestResultLogParser' finished job finalize.
+[2024-11-15 05:56:18Z INFO AgentLogPlugin] All plugins finished finalization.
+[2024-11-15 05:56:18Z INFO HostContext] Well known directory 'Bin': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\bin'
+[2024-11-15 05:56:18Z INFO HostContext] Well known directory 'Root': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent'
+[2024-11-15 05:56:18Z INFO HostContext] Well known directory 'Work': 'D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work'
+[2024-11-15 05:56:18Z INFO BuildJobExtension] Total accessible running process: 248.
+[2024-11-15 05:56:18Z INFO JobRunner] Job result after all job steps finish: Failed
+[2024-11-15 05:56:18Z INFO JobRunner] Completing the job execution context.
+[2024-11-15 05:56:18Z INFO JobRunner] Shutting down the job server queue.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '204ca25c-092b-4ed8-9c69-fe33b4bb1885', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO JobServerQueue] All queue process task stopped.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '204ca25c-092b-4ed8-9c69-fe33b4bb1885', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Try to append 1 batches web console lines for record '41e59a54-3159-576c-efb3-32329de30613', success rate: 1/1.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Web console line queue drained.
+[2024-11-15 05:56:18Z INFO JobServerQueue] Uploading 7 files in one shot.
+[2024-11-15 05:56:21Z INFO JobServerQueue] Try to upload 7 log files or attachments, success rate: 7/7.
+[2024-11-15 05:56:21Z INFO JobServerQueue] File upload queue drained.
+[2024-11-15 05:56:21Z INFO JobServerQueue] Timeline update queue drained.
+[2024-11-15 05:56:21Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2024-11-15 05:56:21Z INFO TempDirectoryManager] Cleaning agent temp folder: D:\Cloud-Project\AWS\azure-devops-kubernetes-terraform-pipeline\agent\_work\_temp
+[2024-11-15 05:56:21Z INFO JobRunner] Raising job completed event.
+[2024-11-15 05:56:21Z INFO Worker] Job completed.

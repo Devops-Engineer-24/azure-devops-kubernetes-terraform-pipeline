@@ -1,12 +1,5 @@
 # Starter pipeline
-- task: TerraformTaskV4@4
-  inputs:
-    provider: 'aws'
-    command: 'init'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
-    backendServiceAWS: 'Azure-to-AWS'
-    backendAWSBucketName: 'terraform-backend-azure-pipeline'
-    backendAWSKey: 'Kubernetes-Backend.tfstate'
+
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
@@ -15,11 +8,19 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: docker-agent
 
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
+- task: TerraformTaskV4@4
+  inputs:
+    provider: 'aws'
+    command: 'init'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
+    backendServiceAWS: 'Azure-to-AWS'
+    backendAWSBucketName: 'terraform-backend-azure-pipeline'
+    backendAWSKey: 'Kubernetes-Backend.tfstate'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.

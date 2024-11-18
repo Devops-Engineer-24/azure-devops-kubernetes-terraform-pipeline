@@ -1,6 +1,8 @@
 
 trigger:
 - main
+pool:
+name: docker-agnet
 
 stages:
 - stage: Build

@@ -103,16 +103,6 @@ resource "kubernetes_secret" "terraform_secret" {
   }
 }
 
-# Backend Configuration for Terraform State (Azure Storage example)
-terraform {
-  backend "azurerm" {
-    resource_group_name   = "myResourceGroup"
-    storage_account_name = "myterraformstate"
-    container_name       = "tfstate"
-    key                  = "path/to/my/key"
-  }
-}
-
 # To initialize the backend and apply configuration
 output "cluster_name" {
   value = module.in28minutes-cluster.cluster_name

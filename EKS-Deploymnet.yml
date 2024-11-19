@@ -30,7 +30,7 @@ stages:
     - task: CopyFiles@2
       inputs:
         SourceFolder: '$(System.DefaultWorkingDirectory)'
-        Contents: '**'
+        Contents: '**/*.yaml'
         TargetFolder: '$(System.ArtifactStagingDirectory)'
     - task: PublishBuildArtifacts@1
       inputs:
@@ -59,4 +59,4 @@ stages:
         kubernetesServiceConnection: 'EKS-Cluster-Connection'
         namespace: 'default'
         manifests: '$(System.ArtifactDirectory)/configuration/kubernetes/deployment.yaml'
-        containers: 'in28min/currency-exchange-devops:$(tag)'
+        containers: 'mayur24/azure-pipeline:$(tag)'

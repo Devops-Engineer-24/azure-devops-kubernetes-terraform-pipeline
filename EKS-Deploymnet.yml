@@ -30,8 +30,8 @@ stages:
         Dockerfile: '**/Dockerfile'
         tags: |
           $(tag)
-          - task: CopyFiles@2
-          inputs:
+    - task: CopyFiles@2
+      inputs:
             SourceFolder: '$(System.DefaultWorkingDirectory)'
             Contents: '**/*.yaml'
             TargetFolder: '$(Build.ArtifactStagingDirectory)'

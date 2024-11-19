@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket" # Replace with your bucket
-    key    = "path/to/my/key" # Replace with your backend key
+    bucket = "mybucket"   # Replace with your S3 bucket name
+    key    = "path/to/my/key"   # Replace with your key path
     region = "us-east-1"
   }
 }
@@ -16,7 +16,7 @@ provider "kubernetes" {
   token                  = module.in28minutes-cluster.cluster_auth_token
 }
 
-# Create EKS Cluster
+# EKS Cluster Creation
 module "in28minutes-cluster" {
   source  = "terraform-aws-modules/eks/aws"
   version = "19.15.3"
@@ -25,7 +25,7 @@ module "in28minutes-cluster" {
   cluster_version = "1.30"
 
   vpc_id     = aws_default_vpc.default.id
-  subnet_ids = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]
+  subnet_ids = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]  # Replace with correct subnet IDs
 
   cluster_endpoint_public_access = true
 
@@ -61,7 +61,7 @@ resource "kubernetes_service_account" "terraform_service_account" {
   }
 }
 
-# Bind the Service Account to Cluster Admin Role
+# Cluster Role Binding for Admin Access
 resource "kubernetes_cluster_role_binding" "terraform_admin_binding" {
   metadata {
     name = "terraform-admin-binding"
@@ -80,7 +80,7 @@ resource "kubernetes_cluster_role_binding" "terraform_admin_binding" {
   }
 }
 
-# Create a Token Secret for the Service Account
+# Create Kubernetes Service Account Token Secret
 resource "kubernetes_secret" "terraform_service_account_token" {
   metadata {
     name      = "terraform-service-account-token"

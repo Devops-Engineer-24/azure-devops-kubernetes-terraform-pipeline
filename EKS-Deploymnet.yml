@@ -29,7 +29,7 @@ stages:
     #      $(tag)
     - task: CopyFiles@2
       inputs:
-        SourceFolder: '$(Systeam.DefaultWorkingDirctory)'
+        SourceFolder: '$(System.DefaultWorkingDirectory)'
         Contents: '**'
         TargetFolder: '$(Systeam.ArtifactStagingDirectory)'
     - task: PublishBuildArtifacts@1

@@ -1,19 +1,21 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"   # Replace with your S3 bucket name
-    key    = "path/to/my/key"   # Replace with your key path
+    bucket = "mybucket"  # Will be overridden from build
+    key    = "path/to/my/key"  # Will be overridden from build
     region = "us-east-1"
   }
 }
 
+# AWS Provider Configuration
 provider "aws" {
   region = "us-east-1"
 }
 
+# Kubernetes Provider Configuration (after EKS cluster creation)
 provider "kubernetes" {
-  host                   = module.in28minutes-cluster.cluster_endpoint
-  cluster_ca_certificate = base64decode(module.in28minutes-cluster.cluster_certificate_authority_data)
-  token                  = module.in28minutes-cluster.cluster_auth_token
+  host                   = data.aws_eks_cluster.example.endpoint
+  cluster_ca_certificate = base64decode(data.aws_eks_cluster.example.certificate_authority[0].data)
+  token                  = data.aws_eks_cluster_auth.example.token
 }
 
 # EKS Cluster Creation
@@ -23,10 +25,10 @@ module "in28minutes-cluster" {
 
   cluster_name    = "in28minutes-cluster"
   cluster_version = "1.30"
-
-  vpc_id     = aws_default_vpc.default.id
-  subnet_ids = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]  # Replace with correct subnet IDs
-
+  
+  subnet_ids         = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"] # Specify correct subnets
+  vpc_id            = aws_default_vpc.default.id
+  
   cluster_endpoint_public_access = true
 
   eks_managed_node_group_defaults = {
@@ -51,17 +53,27 @@ module "in28minutes-cluster" {
   }
 }
 
+# AWS Default VPC
 resource "aws_default_vpc" "default" {}
 
-# Create Kubernetes Service Account
+# Fetch the EKS cluster details after creation
+data "aws_eks_cluster" "example" {
+  name = module.in28minutes-cluster.cluster_name
+}
+
+data "aws_eks_cluster_auth" "example" {
+  name = module.in28minutes-cluster.cluster_name
+}
+
+# Kubernetes Service Account (For Terraform Automation)
 resource "kubernetes_service_account" "terraform_service_account" {
   metadata {
-    name      = "terraform-admin-for-azure-devops"
+    name      = "terraform-admin-for-Azure-Devops"
     namespace = "default"
   }
 }
 
-# Cluster Role Binding for Admin Access
+# ClusterRoleBinding for Admin Access to Service Account
 resource "kubernetes_cluster_role_binding" "terraform_admin_binding" {
   metadata {
     name = "terraform-admin-binding"
@@ -80,32 +92,38 @@ resource "kubernetes_cluster_role_binding" "terraform_admin_binding" {
   }
 }
 
-# Create Kubernetes Service Account Token Secret
-resource "kubernetes_secret" "terraform_service_account_token" {
+# Kubernetes Secret for Service Account Token
+resource "kubernetes_secret" "terraform_secret" {
   metadata {
     name      = "terraform-service-account-token"
-    namespace = kubernetes_service_account.terraform_service_account.metadata[0].namespace
-    annotations = {
-      "kubernetes.io/service-account.name" = kubernetes_service_account.terraform_service_account.metadata[0].name
-    }
+    namespace = "default"
   }
 
-  type = "kubernetes.io/service-account-token"
+  data = {
+    token = base64encode(data.aws_eks_cluster_auth.example.token)
+  }
 }
 
-# Outputs
+# Backend Configuration for Terraform State (Azure Storage example)
+terraform {
+  backend "azurerm" {
+    resource_group_name   = "myResourceGroup"
+    storage_account_name = "myterraformstate"
+    container_name       = "tfstate"
+    key                  = "path/to/my/key"
+  }
+}
+
+# To initialize the backend and apply configuration
 output "cluster_name" {
   value = module.in28minutes-cluster.cluster_name
 }
 
 output "cluster_endpoint" {
-  value = module.in28minutes-cluster.cluster_endpoint
+  value = data.aws_eks_cluster.example.endpoint
 }
 
-output "service_account_name" {
-  value = kubernetes_service_account.terraform_service_account.metadata[0].name
+output "cluster_certificate_authority" {
+  value = data.aws_eks_cluster.example.certificate_authority[0].data
 }
 
-output "service_account_token_name" {
-  value = kubernetes_secret.terraform_service_account_token.metadata[0].name
-}

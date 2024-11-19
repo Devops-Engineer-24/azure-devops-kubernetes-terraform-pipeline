@@ -67,8 +67,8 @@ data "aws_eks_cluster_auth" "example" {
 # Kubernetes Service Account (For Terraform Automation)
 resource "kubernetes_service_account" "terraform_service_account" {
   metadata {
-    name      = "terraform-admin-for-Azure-Devops"
-    namespace = "default"
+     name = "terraform-admin-for-azure-devops"
+     namespace = "default"
   }
 }
 

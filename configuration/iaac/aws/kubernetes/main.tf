@@ -1,34 +1,27 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket"  # Will be overridden from build
-    key    = "path/to/my/key"  # Will be overridden from build
-    region = "us-east-1"
+    bucket = "mybucket" # Will be overridden from build
+    key    = "path/to/my/key" # Will be overridden from build
   }
 }
 
-# AWS Provider Configuration
-provider "aws" {
-  region = "us-east-1"
-}
+resource "aws_default_vpc" "default" {}
 
-# Kubernetes Provider Configuration (after EKS cluster creation)
-provider "kubernetes" {
-  host                   = data.aws_eks_cluster.example.endpoint
-  cluster_ca_certificate = base64decode(data.aws_eks_cluster.example.certificate_authority[0].data)
-  token                  = data.aws_eks_cluster_auth.example.token
-}
-
-# EKS Cluster Creation
 module "in28minutes-cluster" {
   source  = "terraform-aws-modules/eks/aws"
   version = "19.15.3"
 
   cluster_name    = "in28minutes-cluster"
   cluster_version = "1.30"
+
+  subnet_ids = [
+    "subnet-021a248222a3bba9e",  # Replace with your actual subnet ID
+    "subnet-0821207f4733cbaee",  # Replace with your actual subnet ID
+    "subnet-0350135772a072e36"   # Replace with your actual subnet ID
+  ]
   
-  subnet_ids         = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]  # Specify correct subnets
-  vpc_id            = aws_default_vpc.default.id
-  
+  vpc_id = aws_default_vpc.default.id
+
   cluster_endpoint_public_access = true
 
   eks_managed_node_group_defaults = {
@@ -43,6 +36,7 @@ module "in28minutes-cluster" {
       max_size       = 3
       desired_size   = 2
     }
+
     two = {
       name           = "node-group-2"
       instance_types = ["t3.small"]
@@ -53,19 +47,22 @@ module "in28minutes-cluster" {
   }
 }
 
-# AWS Default VPC
-resource "aws_default_vpc" "default" {}
-
-# Fetch the EKS cluster details after creation
+# Fetch EKS cluster details
 data "aws_eks_cluster" "example" {
-  name = module.in28minutes-cluster.cluster_name
+  name = "in28minutes-cluster"
 }
 
 data "aws_eks_cluster_auth" "example" {
-  name = module.in28minutes-cluster.cluster_name
+  name = "in28minutes-cluster"
 }
 
-# Kubernetes Service Account (For Terraform Automation)
+provider "kubernetes" {
+  host                   = data.aws_eks_cluster.example.endpoint
+  cluster_ca_certificate = base64decode(data.aws_eks_cluster.example.certificate_authority[0].data)
+  token                  = data.aws_eks_cluster_auth.example.token
+}
+
+# Service Account for Azure DevOps Automation
 resource "kubernetes_service_account" "terraform_service_account" {
   metadata {
     name      = "terraform-admin-for-Azure-Devops"
@@ -104,26 +101,7 @@ resource "kubernetes_secret" "terraform_secret" {
   }
 }
 
-# Backend Configuration for Terraform State (Azure Storage example)
-# Commented out as requested
-# terraform {
-#   backend "azurerm" {
-#     resource_group_name   = "myResourceGroup"
-#     storage_account_name = "myterraformstate"
-#     container_name       = "tfstate"
-#     key                  = "path/to/my/key"
-#   }
-# }
-
-# To initialize the backend and apply configuration
-output "cluster_name" {
-  value = module.in28minutes-cluster.cluster_name
-}
-
-output "cluster_endpoint" {
-  value = data.aws_eks_cluster.example.endpoint
-}
-
-output "cluster_certificate_authority" {
-  value = data.aws_eks_cluster.example.certificate_authority[0].data
+# Provider configuration for AWS
+provider "aws" {
+  region = "us-east-1"
 }

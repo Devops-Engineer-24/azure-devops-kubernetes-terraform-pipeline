@@ -41,3 +41,6 @@ steps:
     command: 'destroy'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
     environmentServiceNameAWS: 'Azure-to-AWS'
+    backendServiceAWS: 'Azure-to-AWS'
+    backendAWSBucketName: 'terraform-backend-azure-pipeline'
+    backendAWSKey: 'Kubernetes-Backend.tfstate'

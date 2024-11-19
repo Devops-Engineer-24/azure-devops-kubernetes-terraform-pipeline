@@ -18,7 +18,7 @@ stages:
   - job: Build
     displayName: Build
     pool:
-      name: docker-agnet
+      name: docker-agent
     steps:
  #   - task: Docker@2
   #    displayName: Build an image

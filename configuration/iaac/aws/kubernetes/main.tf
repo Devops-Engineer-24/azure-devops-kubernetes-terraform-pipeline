@@ -47,21 +47,6 @@ module "in28minutes-cluster" {
   }
 }
 
-# Fetch EKS cluster details
-data "aws_eks_cluster" "example" {
-  name = "in28minutes-cluster"
-}
-
-data "aws_eks_cluster_auth" "example" {
-  name = "in28minutes-cluster"
-}
-
-provider "kubernetes" {
-  host                   = data.aws_eks_cluster.example.endpoint
-  cluster_ca_certificate = base64decode(data.aws_eks_cluster.example.certificate_authority[0].data)
-  token                  = data.aws_eks_cluster_auth.example.token
-}
-
 resource "kubernetes_service_account" "terraform_service_account" {
   metadata {
     name      = "terraform-admin-for-azure-devops"  # Corrected to lowercase
@@ -93,10 +78,6 @@ resource "kubernetes_secret" "terraform_secret" {
   metadata {
     name      = "terraform-service-account-token"
     namespace = "default"
-  }
-
-  data = {
-    token = base64encode(data.aws_eks_cluster_auth.example.token)
   }
 }
 

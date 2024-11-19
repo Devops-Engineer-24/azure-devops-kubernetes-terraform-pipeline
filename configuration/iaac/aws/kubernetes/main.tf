@@ -1,7 +1,8 @@
 terraform {
   backend "s3" {
-    bucket = "mybucket" # Overridden during build
-    key    = "path/to/my/key" # Overridden during build
+    bucket = "mybucket" # Replace with your bucket
+    key    = "path/to/my/key" # Replace with your backend key
+    region = "us-east-1"
   }
 }
 
@@ -10,9 +11,9 @@ provider "aws" {
 }
 
 provider "kubernetes" {
-  host                   = data.aws_eks_cluster.example.endpoint
-  cluster_ca_certificate = base64decode(data.aws_eks_cluster.example.certificate_authority[0].data)
-  token                  = data.aws_eks_cluster_auth.example.token
+  host                   = module.in28minutes-cluster.cluster_endpoint
+  cluster_ca_certificate = base64decode(module.in28minutes-cluster.cluster_certificate_authority_data)
+  token                  = module.in28minutes-cluster.cluster_auth_token
 }
 
 # Create EKS Cluster
@@ -23,8 +24,9 @@ module "in28minutes-cluster" {
   cluster_name    = "in28minutes-cluster"
   cluster_version = "1.30"
 
-  subnet_ids       = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]
-  vpc_id           = aws_default_vpc.default.id
+  vpc_id     = aws_default_vpc.default.id
+  subnet_ids = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]
+
   cluster_endpoint_public_access = true
 
   eks_managed_node_group_defaults = {
@@ -47,18 +49,12 @@ module "in28minutes-cluster" {
       desired_size   = 1
     }
   }
+
+  write_kubeconfig = false
+  kubeconfig_path  = null
 }
 
 resource "aws_default_vpc" "default" {}
-
-# Fetch EKS Cluster Data
-data "aws_eks_cluster" "example" {
-  name = module.in28minutes-cluster.cluster_name
-}
-
-data "aws_eks_cluster_auth" "example" {
-  name = module.in28minutes-cluster.cluster_name
-}
 
 # Create Kubernetes Service Account
 resource "kubernetes_service_account" "terraform_service_account" {
@@ -87,23 +83,17 @@ resource "kubernetes_cluster_role_binding" "terraform_admin_binding" {
   }
 }
 
-# Grant Full Admin Access to Your IAM Role/User
-resource "kubernetes_cluster_role_binding" "iam_admin_binding" {
+# Create a Token Secret for the Service Account
+resource "kubernetes_secret" "terraform_service_account_token" {
   metadata {
-    name = "iam-admin-binding"
+    name      = "terraform-service-account-token"
+    namespace = kubernetes_service_account.terraform_service_account.metadata[0].namespace
+    annotations = {
+      "kubernetes.io/service-account.name" = kubernetes_service_account.terraform_service_account.metadata[0].name
+    }
   }
 
-  role_ref {
-    api_group = "rbac.authorization.k8s.io"
-    kind      = "ClusterRole"
-    name      = "cluster-admin"
-  }
-
-  subject {
-    kind      = "User"
-    name      = "your-iam-user-or-role-name" # Replace with your IAM user or role name
-    api_group = "rbac.authorization.k8s.io"
-  }
+  type = "kubernetes.io/service-account-token"
 }
 
 # Outputs
@@ -112,9 +102,13 @@ output "cluster_name" {
 }
 
 output "cluster_endpoint" {
-  value = data.aws_eks_cluster.example.endpoint
+  value = module.in28minutes-cluster.cluster_endpoint
 }
 
 output "service_account_name" {
   value = kubernetes_service_account.terraform_service_account.metadata[0].name
+}
+
+output "service_account_token_name" {
+  value = kubernetes_secret.terraform_service_account_token.metadata[0].name
 }

@@ -14,6 +14,8 @@ variables:
 stages:
 - stage: Build
   displayName: Build image
+  pool:
+      name: docker-agent
   jobs:
   - job: Build
     displayName: Build

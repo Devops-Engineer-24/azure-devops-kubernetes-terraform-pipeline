@@ -35,9 +35,9 @@ steps:
     backendServiceAWS: 'Azure-to-AWS'
     backendAWSBucketName: 'terraform-backend-azure-pipeline'
     backendAWSKey: 'Kubernetes-Backend.tfstate'
-- task: TerraformTaskV4@4
-  inputs:
-    provider: 'aws'
+# - task: TerraformTaskV4@4
+#   inputs:
+#     provider: 'aws'
 - task: TerraformTaskV4@4
   inputs:
     provider: 'aws'

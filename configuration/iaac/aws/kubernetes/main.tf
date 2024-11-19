@@ -49,9 +49,6 @@ module "in28minutes-cluster" {
       desired_size   = 1
     }
   }
-
-  write_kubeconfig = false
-  kubeconfig_path  = null
 }
 
 resource "aws_default_vpc" "default" {}

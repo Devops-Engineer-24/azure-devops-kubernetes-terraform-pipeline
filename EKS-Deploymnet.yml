@@ -43,7 +43,7 @@ stages:
   - job: Deploy
     displayName: Deploy
     pool:
-      name: docker-agnet
+      name: docker-agent
     steps:
   
     - task: DownloadPipelineArtifact@2

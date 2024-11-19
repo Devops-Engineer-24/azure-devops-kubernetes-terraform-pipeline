@@ -26,7 +26,7 @@ module "in28minutes-cluster" {
   cluster_name    = "in28minutes-cluster"
   cluster_version = "1.30"
   
-  subnet_ids         = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"] # Specify correct subnets
+  subnet_ids         = ["subnet-021a248222a3bba9e", "subnet-0821207f4733cbaee", "subnet-0350135772a072e36"]  # Specify correct subnets
   vpc_id            = aws_default_vpc.default.id
   
   cluster_endpoint_public_access = true
@@ -105,14 +105,15 @@ resource "kubernetes_secret" "terraform_secret" {
 }
 
 # Backend Configuration for Terraform State (Azure Storage example)
-terraform {
-  backend "azurerm" {
-    resource_group_name   = "myResourceGroup"
-    storage_account_name = "myterraformstate"
-    container_name       = "tfstate"
-    key                  = "path/to/my/key"
-  }
-}
+# Commented out as requested
+# terraform {
+#   backend "azurerm" {
+#     resource_group_name   = "myResourceGroup"
+#     storage_account_name = "myterraformstate"
+#     container_name       = "tfstate"
+#     key                  = "path/to/my/key"
+#   }
+# }
 
 # To initialize the backend and apply configuration
 output "cluster_name" {
@@ -126,4 +127,3 @@ output "cluster_endpoint" {
 output "cluster_certificate_authority" {
   value = data.aws_eks_cluster.example.certificate_authority[0].data
 }
-

@@ -21,17 +21,20 @@ steps:
     backendServiceAWS: 'Azure-to-AWS'
     backendAWSBucketName: 'terraform-backend-azure-pipeline'
     backendAWSKey: 'Kubernetes-Backend.tfstate'
-- task: TerraformTaskV4@4
-  inputs:
-    provider: 'aws'
-    command: 'validate'
-    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
+# - task: TerraformTaskV4@4
+#   inputs:
+#     provider: 'aws'
+#     command: 'validate'
+#     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
 - task: TerraformTaskV4@4
   inputs:
     provider: 'aws'
     command: 'apply'
     environmentServiceNameAWS: 'Azure-to-AWS'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/aws/kubernetes'
+    backendServiceAWS: 'Azure-to-AWS'
+    backendAWSBucketName: 'terraform-backend-azure-pipeline'
+    backendAWSKey: 'Kubernetes-Backend.tfstate'
 - task: TerraformTaskV4@4
   inputs:
     provider: 'aws'

@@ -62,10 +62,9 @@ provider "kubernetes" {
   token                  = data.aws_eks_cluster_auth.example.token
 }
 
-# Service Account for Azure DevOps Automation
 resource "kubernetes_service_account" "terraform_service_account" {
   metadata {
-    name      = "terraform-admin-for-Azure-Devops"
+    name      = "terraform-admin-for-azure-devops"  # Corrected to lowercase
     namespace = "default"
   }
 }

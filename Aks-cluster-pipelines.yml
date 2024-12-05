@@ -1,33 +1,33 @@
-# Docker
-# Build a Docker image
-# https://docs.microsoft.com/azure/devops/pipelines/languages/docker
-
 trigger:
 - main
 
 pool:
-    name: azure-agent
+  name: azure-agent
 
 steps:
 - script: echo "AKS"
-  displayName: "Run aone line script"
+  displayName: "Run a one-line script"
 
+# Download secure file
 - task: DownloadSecureFile@1
-  name: devops
+  name: DownloadSSHKey
   inputs:
-       secureFile: 'devops.pub'
-- task: TerraformInstaller@1
+    secureFile: 'devops.pub'
+
+# Install Terraform
+- task: ms-devlabs.custom-terraform-tasks.custom-terraform-installer-task.TerraformInstaller@1
   inputs:
     terraformVersion: 'latest'
+
+# Initialize Terraform
 - task: TerraformCLI@2
   inputs:
     command: 'init'
-    workingDirectory: '$(System.DefaultWorkingDirectory)https://github.com/Devops-Engineer-24/azure-devops-kubernetes-terraform-pipeline/tree/main/configuration/iaac/azure/kubernetes'
-    commandOptions: '-var client_id =$(client_id) -var client_secret=$(client_secret) -var ssh_public_key=$(devops.secureFilePath)'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
+    commandOptions: '-var="client_id=$(client_id)" -var="client_secret=$(client_secret)" -var="ssh_public_key=$(DownloadSSHKey.secureFilePath)"'
     backendType: 'azurerm'
     backendServiceArm: 'aks-connection'
     backendAzureRmResourceGroupName: 'terraform-rg'
     backendAzureRmStorageAccountName: 'terraform-rg-aks-backend-sa'
     backendAzureRmContainerName: 'terraform-rg-aks-backend'
     backendAzureRmKey: 'Kubernetes-dev-state'
-    allowTelemetryCollection: true

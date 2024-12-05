@@ -27,7 +27,10 @@ steps:
     commandOptions: '-var="client_id=$(client_id)" -var="client_secret=$(client_secret)" -var="ssh_public_key=$(DownloadSSHKey.secureFilePath)"'
     backendType: 'azurerm'
     backendServiceArm: 'aks-connection'
+    ensureBackend: true
     backendAzureRmResourceGroupName: 'terraform-rg'
+    backendAzureRmResourceGroupLocation: 'eastasia'
     backendAzureRmStorageAccountName: 'tfaksbackendsa'
     backendAzureRmContainerName: 'terraform-rg-aks-backend'
     backendAzureRmKey: 'Kubernetes-dev-state'
+    allowTelemetryCollection: true

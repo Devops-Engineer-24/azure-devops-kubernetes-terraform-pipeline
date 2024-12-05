@@ -16,6 +16,9 @@ steps:
   name: devops
   inputs:
        secureFile: 'devops.pub'
+- task: TerraformInstaller@1
+  inputs:
+    terraformVersion: 'latest'
 
 - task: TerraformCLI@2
   inputs:

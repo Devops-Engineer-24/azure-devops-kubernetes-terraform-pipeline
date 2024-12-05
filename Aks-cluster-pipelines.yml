@@ -28,6 +28,6 @@ steps:
     backendType: 'azurerm'
     backendServiceArm: 'aks-connection'
     backendAzureRmResourceGroupName: 'terraform-rg'
-    backendAzureRmStorageAccountName: 'terraform-rg-aks-backend-sa'
+    backendAzureRmStorageAccountName: 'tfaksbackendsa'
     backendAzureRmContainerName: 'terraform-rg-aks-backend'
     backendAzureRmKey: 'Kubernetes-dev-state'

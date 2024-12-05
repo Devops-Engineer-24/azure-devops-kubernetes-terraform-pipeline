@@ -13,7 +13,7 @@ steps:
   displayName: "Run aone line script"
 
 - task: DownloadSecureFile@1
-  name: devops.secureFilepath
+  name: devops
   inputs:
        secureFile: 'devops.pub'
 

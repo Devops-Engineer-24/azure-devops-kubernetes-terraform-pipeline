@@ -41,7 +41,5 @@ steps:
     command: 'plan'
     workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
     environmentServiceName: 'aks-connection'
-    providerAzureRmSubscriptionId: '5b06f8f4-eb74-4814-9ee3-c3ff92c27a55'
-    runAzLogin: true
     commandOptions: '-var="client_id=$(client_id)" -var="client_secret=$(client_secret)" -var="ssh_public_key=$(DownloadSSHKey.secureFilePath)'
-    allowTelemetryCollection: true
+

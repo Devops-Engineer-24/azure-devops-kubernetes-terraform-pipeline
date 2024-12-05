@@ -34,3 +34,12 @@ steps:
     backendAzureRmContainerName: 'terraform-rg-aks-backend'
     backendAzureRmKey: 'Kubernetes-dev-state'
     allowTelemetryCollection: true
+
+
+- task: TerraformCLI@2
+  inputs:
+    command: 'plan'
+    workingDirectory: '$(System.DefaultWorkingDirectory)/configuration/iaac/azure/kubernetes'
+    environmentServiceName: 'aks-connection'
+    commandOptions: '-var="client_id=$(client_id)" -var="client_secret=$(client_secret)" -var="ssh_public_key=$(DownloadSSHKey.secureFilePath)'
+    allowTelemetryCollection: true
